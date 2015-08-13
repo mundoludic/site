@@ -1,0 +1,23 @@
+# Project directory layout
+
+src/
+	files/
+		fonts/
+		images/
+	js/
+		collections/
+		constrollers/
+		main.js
+	sass/
+	templates/
+		partials/
+		index.html
+
+builds/
+	development/
+		fonts/
+		images/
+		css/
+		js/
+		index.html
+	production/
