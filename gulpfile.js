@@ -1,3 +1,5 @@
+/* dLC GULP Project by marioip */
+
 var gulp = require('gulp'),
 	jade = require('gulp-jade'),
 	uglify = require('gulp-uglify'),
