@@ -1,7 +1,6 @@
 /* dLC GULP Project by marioip */
 
 var gulp = require('gulp'),
-	jade = require('gulp-jade'),
 	uglify = require('gulp-uglify'),
 	gulpif = require('gulp-if'),
 	sass = require('gulp-sass'),
@@ -11,13 +10,6 @@ var gulp = require('gulp'),
 
 var env = process.env.NODE_ENV || 'development';
 var outputDir = 'builds/development';
-
-gulp.task('jade', function(){
-	return gulp.src('src/templates/**/*.jade')
-		.pipe(jade())
-		.pipe(gulp.dest(outputDir))
-		.pipe(livereload());
-});
 
 gulp.task('js', function(){
 	return gulp.src('src/js/main.js')
@@ -47,12 +39,11 @@ gulp.task('sass', function(){
 
 gulp.task('watch', function(){
 	livereload.listen();
-	gulp.watch('src/templates/**/*.jade', ['jade']);
 	gulp.watch('src/js/**/*.js', ['js']);
 	gulp.watch('src/sass/**/*.scss', ['sass']);
 });
 
-gulp.task('default', ['js','jade','sass','watch']);
+gulp.task('default', ['js','sass','watch']);
 
 // Testing
 
