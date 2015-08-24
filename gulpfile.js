@@ -52,7 +52,7 @@ gulp.task('watch', function(){
 	gulp.watch('src/sass/**/*.scss', ['sass']);
 });
 
-gulp.task('default', ['js','jade','sass','watch','jslint']);
+gulp.task('default', ['js','jade','sass','watch']);
 
 // Testing
 
