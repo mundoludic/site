@@ -6,13 +6,27 @@ var gulp = require('gulp'),
 	sass = require('gulp-sass'),
 	browserify = require('gulp-browserify'),
 	jslint = require('gulp-jslint'),
-	livereload = require('gulp-livereload');
+	livereload = require('gulp-livereload'),
+    concat = require('gulp-concat');
 
 var env = process.env.NODE_ENV || 'development';
 var outputDir = 'builds/development';
 
+gulp.task('js-libraries',function(){
+    return gulp.src(['node_modules/jquery/dist/jquery.js',
+                    'node_modules/angular/angular.js',
+                    'node_modules/angular-resource/angular-resource.js',
+                    'node_modules/angular-cookies/angular-cookies.js',
+                    'node_modules/angular-sanitize/angular-sanitize.js',
+                    'node_modules/angular-route/angular-route.js',
+                    'node_modules/foundation/js/foundation.js'])
+        .pipe(concat('all-libraries.js'))
+        .pipe(gulpif(env === 'production', uglify()))
+        .pipe(gulp.dest(outputDir + '/js'))
+});
+
 gulp.task('js', function(){
-	return gulp.src('src/js/main.js')
+	return gulp.src(['src/js/main.js',])
 		.pipe(browserify({ debug: env === 'development' }))
 		.pipe(gulpif(env === 'production', uglify()))
 		.pipe(gulp.dest(outputDir + '/js'))
