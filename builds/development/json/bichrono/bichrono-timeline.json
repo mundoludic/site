@@ -1,0 +1,172 @@
+
+{
+    "timeline":
+    {
+        "headline":"Bichrono Saga",
+        "type":"default",
+		"startDate":"2003",
+		"text":"<i><span class='c1'>by deLaCour</span></i>",
+		"asset":
+        {
+            "media":"images/collections/bichrono/timeline/tech-main.png",
+            "credit":"",
+            "caption":""
+        },
+        "date": [
+            {
+                "startDate":"2003",
+                "headline":"The Bichrono is deLaCour's first line",
+                "text":"The Bichrono was nominated in the best design category by the Geneva Watch making Grand Prix upon the brands unveiling in 2003.",
+                "asset":
+                {
+                    "media":"images/collections/bichrono/timeline/genesis.jpg",
+                    "credit":"",
+                    "caption":""
+                }
+            },
+            {
+                "startDate":"2004",
+                "headline":"Watch of the year",
+                "text":"In 2004 Winner of the Unique design award at the « Watch of the year » Tokyo.",
+                "asset":
+                {
+                    "media":"images/collections/bichrono/timeline/japan.jpg",
+                    "credit":"",
+                    "caption":""
+                }
+            },
+            {
+                "startDate":"2005,2",
+                "headline":"Top Stars - “Montres Magazine”",
+                "text":"Top stars for the Best Titanium Watch - “Montres Magazine” Automne 2005.",
+                "asset":
+                {
+                    "media":"images/collections/bichrono/timeline/top-stars.jpg",
+                    "credit":"",
+                    "caption":""
+                }
+            },
+            {
+                "startDate":"2005,3",
+                "headline":"Bichrono Hommage",
+                "text":"Requiring more than 50 manual operations, the Bichrono Hommage introduces a dial made of natural precious wood and handset on a titanium base that fits inside its 18K pink gold emblematical barrel-shaped case.",
+                "asset":
+                {
+                    "media":"images/collections/bichrono/timeline/hommage.jpg",
+                    "credit":"",
+                    "caption":""
+                }
+            },
+            {
+                "startDate":"2006",
+                "headline":"Bichrono Fidelidad",
+                "text":"Another world premiere for the Bichrono; deLaCour encapsulates an authentic Cuban tobacco leaf on the timepiece’s walnut wood dial, that contrasts unconventionally with the Mother of Pearl backdrop of its double chronograph.",
+                "asset":
+                {
+                    "media":"images/collections/bichrono/timeline/fidelidad.jpg",
+                    "credit":"",
+                    "caption":""
+                }
+            },
+            {
+                "startDate":"2007",
+                "headline":"Bichrono SII",
+                "text":"The Bichrono SII release",
+                "asset":
+                {
+                    "media":"images/collections/bichrono/timeline/sii.jpg",
+                    "credit":"",
+                    "caption":""
+                }
+            },
+            {
+                "startDate":"2008",
+                "headline":"Bichrono SII Night Flight",
+                "text":"The Bichrono Night flight adopts two supplementary chronographs on its dial. Specially designed for globe-trotters, this time-saver indicates the hour on the four corners of the earth.",
+                "asset":
+                {
+                    "media":"images/collections/bichrono/timeline/nf.jpg",
+                    "credit":"",
+                    "caption":""
+                }
+            },
+            {
+                "startDate":"2009",
+                "headline":"Bichrono Asphalt",
+                "text":"The dial has been pulverised with asphalt to recreate the same texture as the formula one tracks giving an impression of speed and roughness. The tension ring bares the design of the chequered flag an iconic symbol of F1, and the fluorescent numbers of the double chronograph, reminiscent of the dashboard, will glow during the night race.",
+                "asset":
+                {
+                    "media":"images/collections/bichrono/timeline/asphalt.jpg",
+                    "credit":"",
+                    "caption":""
+                }
+            },
+            {
+                "startDate":"2010",
+                "headline":"Bichrono S3",
+                "text":"The S3 Bichrono offers a subtle array of features: the elegantly rounded edges, the extended lugs, the framed dial, that all serve to draw the eye towards its trademark dual time-zone face. The effect is one of sleek shapes blending together in a harmonious embrace creating a stunning time piece.",
+                "asset":
+                {
+                    "media":"images/collections/bichrono/timeline/s3.jpg",
+                    "credit":"",
+                    "caption":""
+                }
+            },
+            {
+                "startDate":"2011",
+                "headline":"Bichrono Astroceramic",
+                "text":"The Bichrono take another step ahead by employing the very knowledge used to protect NASA’s space-ships from the intense heat and radiation of the sun. The most advanced technology becomes the safeguarding shield of a rare timepiece specifically created that year for the Red Cross Annual Gala auction in Geneva.",
+                "asset":
+                {
+                    "media":"images/collections/bichrono/timeline/astroceramic.jpg",
+                    "credit":"",
+                    "caption":""
+                }
+            },
+            {
+                "startDate":"2012",
+                "headline":"Bichrono Tech",
+                "text":"The strongest embodiment for the most iconic deLaCour movement, dressed with a bolder and more technical dial in which an intricate filigree of steel wires intertwines, accentuating this three-dimensional armor.",
+                "asset":
+                {
+                    "media":"images/collections/bichrono/timeline/tech.jpg",
+                    "credit":"",
+                    "caption":""
+                }
+            },
+            {
+                "startDate":"2013",
+                "headline":"Bichrono SII Pink Gold",
+                "text":"The Bichrono SII Pink Gold release.",
+                "asset":
+                {
+                    "media":"images/collections/bichrono/timeline/bichronoSIIGold.jpg",
+                    "credit":"",
+                    "caption":""
+                }
+            },
+            {
+                "startDate":"2014",
+                "headline":"Bichrono SII - v.2014",
+                "text":"The Bichrono SII - v.2014 release.",
+                "asset":
+                {
+                    "media":"images/collections/bichrono/timeline/bichronoSII2014.jpg",
+                    "credit":"",
+                    "caption":""
+                }
+            },
+            {
+                "startDate":"2015",
+                "headline":"Bichrono SII - v.2015",
+                "text":"The Bichrono SII - Back case",
+                "asset":
+                {
+                    "media":"images/collections/bichrono/timeline/bichronoSII2015.jpg",
+                    "credit":"",
+                    "caption":""
+                }
+            }
+        ]
+    }
+}

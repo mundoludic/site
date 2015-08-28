@@ -1,0 +1,78 @@
+{
+	"adVisual":{
+		"items":[
+			{
+				"id":"130923CityEgoEpisode_DPS",
+				"url":"press/pressContent/15-CAMPAIGN-2013/",
+				"published":"130923",
+				"active":"1",
+				"name":"City Ego Episode",
+				"collection":"City",
+				"image":"cityEpisodeMan-DPS.jpg",
+				"download":"dLC-DPS-City_Ego_Episode-MAN.zip",
+				"technicals": [
+								"PDF file high quality",
+								"300 dpi definition",
+								"Outlined fonts",
+								"RGB",
+								"(W) 760 mm x (H) 500 mm",
+								"File Size (30MB)"
+								]
+  			},
+  			{
+				"id":"130923CityEgoEpisode_PS",
+				"url":"press/pressContent/15-CAMPAIGN-2013/",
+				"published":"130923",
+				"active":"1",
+				"name":"City Ego Episode",
+				"collection":"City",
+				"image":"cityEpisodeMan-PS.jpg",
+				"download":"dLC-PS-City_Ego_Episode-MAN.zip",
+				"technicals": [
+								"PDF file high quality",
+								"300 dpi definition",
+								"Outlined fonts",
+								"RGB",
+								"(W) 386 mm x (H) 500 mm",
+								"File Size (15MB)"
+								]
+  			},
+  			{
+				"id":"130923CityEgoEpisodeW_DPS",
+				"url":"press/pressContent/15-CAMPAIGN-2013/",
+				"published":"130923",
+				"active":"1",
+				"name":"City Ego Episode W",
+				"collection":"City",
+				"image":"cityEpisodeWoman-DPS.jpg",
+				"download":"dLC-DPS-City_Ego_Episode_W-WOMAN.zip",
+				"technicals": [
+								"PDF file high quality",
+								"300 dpi definition",
+								"Outlined fonts",
+								"RGB",
+								"(W) 674 mm x (H) 436 mm",
+								"File Size (17MB)"
+								]
+  			},
+  			{
+				"id":"130923CityEgoEpisodeW_PS",
+				"url":"press/pressContent/15-CAMPAIGN-2013/",
+				"published":"130923",
+				"active":"1",
+				"name":"City Ego Episode W",
+				"collection":"City",
+				"image":"cityEpisodeWoman-PS.jpg",
+				"download":"dLC-PS-City_Ego_Episode_W-WOMAN.zip",
+				"technicals": [
+								"PDF file high quality",
+								"300 dpi definition",
+								"Outlined fonts",
+								"RGB",
+								"(W) 365 mm x (H) 436 mm",
+								"File Size (10MB)"
+								]
+  			}
+		]
+	}
+}

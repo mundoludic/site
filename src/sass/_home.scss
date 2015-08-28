@@ -1,0 +1,161 @@
+// HOME STYLE
+
+#content-logo-home{
+  height: 170px;
+  background: url('../images/logo-silver.jpg');
+  background-color: #151515;
+  background-repeat: no-repeat;
+  background-position: 50%;
+}
+
+#content-banner{
+  text-align: center;
+  background-color: black;
+  padding: 20px 0;
+  h1{
+    margin: 0;
+  }
+  h4{
+    position: absolute;
+    bottom: 0;
+    padding-left: 20px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: rem-calc(13);
+    letter-spacing: rem-calc(1);
+  }
+}
+
+#content-banner-mobile{
+  text-align: center;
+  h4{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin-left: 300px;
+    margin-bottom: 25px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: rem-calc(14);
+    letter-spacing: rem-calc(1);
+  }
+}
+
+#logo{
+  padding: 30px 0;
+  text-align: center;
+}
+
+#slider-home{
+  padding-top: 20px;
+  background: url('../images/home/slide/cityChronoFlyback_background.jpg');
+  background-color: #000;
+  background-position: 50% 20%;
+  background-repeat: no-repeat;
+  -moz-box-shadow: 0px 7px 20px #090909;
+  -webkit-box-shadow: 0px 7px 20px #090909;
+  box-shadow: 0px 7px 20px #090909;
+
+  #reflect-home{
+    text-align: center;
+  }
+
+  #home-text{
+    text-align: center;
+    margin-top: -40px;
+    margin-bottom: 40px;
+    h3{
+      font-family: 'EB Garamond', serif;
+      font-size: 1.5em;
+      letter-spacing: 0.1em;
+      color: darken($white, 20%);
+    }
+    h1{
+      font-family: 'EB Garamond', serif;
+      font-size: 2.2em;
+      letter-spacing: 0.15em;
+      color: $white;
+    }
+  }
+
+}
+
+ul h3{
+    margin: 0;
+    font-family: 'EB Garamond', serif;
+    font-size: rem-calc(25);
+    margin-top: -80px;
+    letter-spacing: 0.15em;
+    font-weight: normal;
+}
+
+ul a{
+  color: #666;
+}
+
+/* Latest News */
+
+#latest-news{
+  opacity: 0.5;
+  padding-top: 10px;
+  text-align: center;
+  margin-top: 30px;
+  background-color: #000;
+  -moz-box-shadow: 0px 7px 20px #090909;
+  -webkit-box-shadow: 0px 7px 20px #090909;
+  box-shadow: 0px 7px 20px #090909;
+}
+
+#latest-news:hover{
+  opacity: 1;
+}
+
+#latest-news h3{
+  font-family: 'EB Garamond', serif;
+  margin: 10px 0 15px 0;
+}
+
+#latest-news h3 small{
+  font-size: rem-calc(11);
+}
+
+#latest-news h3 small a{
+  font-family: 'EB Garamond', serif;
+  font-size: rem-calc(12);
+}
+
+#latest-news h6{
+  font-size: rem-calc(11);
+}
+
+#latest-news li{
+  display: inline-block;
+  border: 1px solid #000;
+  background-color: #090909;
+  padding: 0px 0 0 0;
+  margin-right: 8px;
+}
+
+#latest-news li:hover{
+  border: 1px solid #222;
+  background-color: #111;
+}
+
+.new-item{
+  display: table;
+}
+
+#latest-news h6{
+  display: table-cell;
+  vertical-align: middle;
+  width: 170px;
+  margin: 0;
+  padding: 0;
+  height: 50px;
+}
+
+
+/**** SCROLLER *****/
+
+.orbit-bullets{
+  margin-left: -25px;
+}

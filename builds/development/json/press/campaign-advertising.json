@@ -1,0 +1,296 @@
+{
+	"adVisual":{
+		"items":[
+		{
+				"id":"LeapXS",
+				"url":"16-CAMPAIGN-2015",
+				"published":"150611",
+				"active":"1",
+				"name":"Leap XS",
+				"collection":"Leap",
+				"image":"XS-Leap_XS-PS.jpg",
+				"download":"dLC-Leap_XS-PS.zip",
+				"technicals": [
+								"PDF file high quality",
+								"300 dpi definition",
+								"Outlined fonts",
+								"RGB",
+								"(W) 350 mm x (H) 500 mm",
+								"File Size (27MB)"
+								]
+  		},
+  		{
+				"id":"LeapXS",
+				"url":"16-CAMPAIGN-2015",
+				"published":"150611",
+				"active":"1",
+				"name":"Leap XS",
+				"collection":"Leap",
+				"image":"XS-Leap_XS-DPS.jpg",
+				"download":"dLC-Leap_XS-DPS.zip",
+				"technicals": [
+								"PDF file high quality",
+								"300 dpi definition",
+								"Outlined fonts",
+								"RGB",
+								"(W) 600 mm x (H) 420 mm",
+								"File Size (27MB)"
+								]
+  		},
+		{
+				"id":"BichronoSIIC",
+				"url":"16-CAMPAIGN-2015",
+				"published":"150414",
+				"active":"1",
+				"name":"Bichrono SII C",
+				"collection":"City",
+				"image":"XS-BICHRONO_SII_C-sAd.jpg",
+				"download":"dLC-BICHRONO_SII_C-PS-RGB.zip",
+				"technicals": [
+								"PDF file high quality",
+								"300 dpi definition",
+								"Outlined fonts",
+								"RGB",
+								"(W) 317 mm x (H) 446 mm",
+								"File Size (22MB)"
+								]
+  		},
+		{
+				"id":"BichronoSIIC_DP",
+				"url":"16-CAMPAIGN-2015",
+				"published":"150414",
+				"active":"1",
+				"name":"Bichrono SII C",
+				"collection":"City",
+				"image":"XS-BICHRONO_SII_C-sAdx2.jpg",
+				"download":"dLC-BICHRONO_SII_C-DPS-RGB.zip",
+				"technicals": [
+								"PDF file high quality",
+								"300 dpi definition",
+								"Outlined fonts",
+								"RGB",
+								"(W) 600 mm x (H) 424 mm",
+								"File Size (35MB)"
+								]
+  		},
+		{
+				"id":"City Cadet 1",
+				"url":"16-CAMPAIGN-2015",
+				"published":"150430",
+				"active":"1",
+				"name":"City Cadet 1",
+				"collection":"City",
+				"image":"XS-City_Cadet_1-PS.png",
+				"download":"dLC-City_Cadet_1-PS.zip",
+				"technicals": [
+								"PDF file high quality",
+								"300 dpi definition",
+								"Outlined fonts",
+								"RGB",
+								"(W) 450 mm x (H) 636 mm",
+								"File Size (37MB)"
+								]
+  		},
+
+		{
+				"id":"City Chrono Flyback DPS",
+				"url":"16-CAMPAIGN-2015",
+				"published":"150317",
+				"active":"1",
+				"name":"City Chrono Flyback",
+				"collection":"City",
+				"image":"XS-CITY_CHRONO_FB-sDPS.png",
+				"download":"dLC-City_Chrono_FB-Cb-PG-DPS.zip",
+				"technicals": [
+								"PDF file high quality",
+								"300 dpi definition",
+								"Outlined fonts",
+								"RGB",
+								"(W) 600 mm x (H) 424 mm",
+								"File Size (31MB)"
+								]
+  			},
+  			{
+				"id":"City Chrono Flyback PS",
+				"url":"16-CAMPAIGN-2015",
+				"published":"150317",
+				"active":"1",
+				"name":"City Chrono Flyback",
+				"collection":"City",
+				"image":"XS-City_Chrono_FB-PS_Cb_PG-PS.png",
+				"download":"dLC-City_Chrono_FB-Cb-PG-PS.zip",
+				"technicals": [
+								"PDF file high quality",
+								"300 dpi definition",
+								"Outlined fonts",
+								"RGB",
+								"(W) 350 mm x (H) 495 mm",
+								"File Size (71MB)"
+								]
+  			},
+		{
+				"id":"dLC-City_Cadet_Lady_I-WOMAN-HAND-DPS",
+				"url":"15-CAMPAIGN-2013",
+				"published":"140731",
+				"active":"0",
+				"name":"City Cadet Lady I DPS",
+				"collection":"City",
+				"image":"XS-CCL1-WOMAN-HAND-DPS.jpg",
+				"download":"dLC-City_Cadet_Lady_I-WOMAN-HAND-DPS.zip",
+				"technicals": [
+								"PDF file high quality",
+								"300 dpi definition",
+								"Outlined fonts",
+								"RGB",
+								"(W) 674 mm x (H) 436 mm",
+								"File Size (210MB)"
+								]
+  			},
+  			{
+				"id":"dLC-City_Cadet_Lady_I-WOMAN-HAND-PS",
+				"url":"15-CAMPAIGN-2013",
+				"published":"140731",
+				"active":"0",
+				"name":"City Cadet Lady I PS",
+				"collection":"City",
+				"image":"XS-CCL1-WOMAN-HAND-PS.jpg",
+				"download":"dLC-City_Cadet_Lady_I-WOMAN-HAND-PS.zip",
+				"technicals": [
+								"PDF file high quality",
+								"300 dpi definition",
+								"Outlined fonts",
+								"RGB",
+								"(W) 674 mm x (H) 436 mm",
+								"File Size (118MB)"
+								]
+  			},
+
+		{
+				"id":"140226-Bichrono_Rafaga-DPS",
+				"url":"15-CAMPAIGN-2013",
+				"published":"140226",
+				"active":"0",
+				"name":"Bichrono Rafaga DPS",
+				"collection":"Bichrono",
+				"image":"XS-Bichrono_Rafaga-Man-DPS.jpg",
+				"download":"dLC-Bichrono_Rafaga-Man-DPS.zip",
+				"technicals": [
+								"PDF file high quality",
+								"300 dpi definition",
+								"Outlined fonts",
+								"RGB",
+								"(W) 845 mm x (H) 564 mm",
+								"File Size (126MB)"
+								]
+  			},
+  			{
+				"id":"140226-Bichrono_Rafaga-PS",
+				"url":"15-CAMPAIGN-2013",
+				"published":"140226",
+				"active":"0",
+				"name":"Bichrono Rafaga PS",
+				"collection":"Bichrono",
+				"image":"XS-Bichrono_Rafaga-Man-PS.jpg",
+				"download":"dLC-Bichrono_Rafaga-Man-PS.zip",
+				"technicals": [
+								"PDF file high quality",
+								"300 dpi definition",
+								"Outlined fonts",
+								"RGB",
+								"(W) 424 mm x (H) 564 mm",
+								"File Size (200MB)"
+								]
+  			},
+			{
+				"id":"130923CityEgoEpisode_DPS",
+				"url":"15-CAMPAIGN-2013",
+				"published":"130923",
+				"active":"0",
+				"name":"City Ego Episode DPS",
+				"collection":"City",
+				"image":"cityEpisodeMan-DPS.jpg",
+				"download":"dLC-DPS-City_Ego_Episode-MAN.zip",
+				"technicals": [
+								"PDF file high quality",
+								"300 dpi definition",
+								"Outlined fonts",
+								"RGB",
+								"(W) 760 mm x (H) 500 mm",
+								"File Size (285MB)"
+								]
+  			},
+  			{
+				"id":"130923CityEgoEpisode_PS",
+				"url":"15-CAMPAIGN-2013",
+				"published":"130923",
+				"active":"0",
+				"name":"City Ego Episode PS",
+				"collection":"City",
+				"image":"cityEpisodeMan-PS.jpg",
+				"download":"dLC-PS-City_Ego_Episode-MAN.zip",
+				"technicals": [
+								"PDF file high quality",
+								"300 dpi definition",
+								"Outlined fonts",
+								"RGB",
+								"(W) 386 mm x (H) 500 mm",
+								"File Size (152MB)"
+								]
+  			},
+  			{
+				"id":"130923CityEgoEpisodeW_DPS",
+				"url":"15-CAMPAIGN-2013",
+				"published":"130923",
+				"active":"0",
+				"name":"City Ego Episode W DPS",
+				"collection":"City",
+				"image":"cityEpisodeWoman-DPS.jpg",
+				"download":"dLC-DPS-City_Ego_Episode_W-WOMAN.zip",
+				"technicals": [
+								"PDF file high quality",
+								"300 dpi definition",
+								"Outlined fonts",
+								"RGB",
+								"(W) 674 mm x (H) 436 mm",
+								"File Size (169MB)"
+								]
+  			},
+  			{
+				"id":"130923CityEgoEpisodeW_PS",
+				"url":"15-CAMPAIGN-2013",
+				"published":"130923",
+				"active":"0",
+				"name":"City Ego Episode W PS",
+				"collection":"City",
+				"image":"cityEpisodeWoman-PS.jpg",
+				"download":"dLC-PS-City_Ego_Episode_W-WOMAN.zip",
+				"technicals": [
+								"PDF file high quality",
+								"300 dpi definition",
+								"Outlined fonts",
+								"RGB",
+								"(W) 365 mm x (H) 436 mm",
+								"File Size (95MB)"
+								]
+  			},
+  			{
+				"id":"150311ChronoFB",
+				"url":"16-CAMPAIGN-2015",
+				"published":"150311",
+				"active":"0",
+				"name":"Chrono FB",
+				"collection":"City",
+				"image":"XS-Chrono_FB-PS_Cb_PG-PS.png",
+				"download":"dLC-Chrono_FB-Cb-PG-PS.zip",
+				"technicals": [
+								"PDF file high quality",
+								"300 dpi definition",
+								"Outlined fonts",
+								"RGB",
+								"(W) 350 mm x (H) 495 mm",
+								"File Size (69MB)"
+								]
+  			}
+		]
+	}
+}

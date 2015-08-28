@@ -1,0 +1,83 @@
+<div class="row">
+
+<div class="main-press-room small-12 small-centered columns">
+
+	<div>
+		<br>
+		<h3>Press Release</h3>
+		<article class="normal-style">
+
+			<!-- PRESS RELEASE ITEM LATEST -->
+			<div class="row press-release-section">
+				<h5>Hightlight</h5>
+			</div>
+
+			<!-- hacemos el filtro en Latest -->
+			<div class="row" ng-repeat="pressRelease in pressReleases.pressRelease.items | filter:{status:'latest'}">
+				<div class="large-12 columns press-item">
+					<div class="large-6 columns ">
+						<div class="large-6 columns">
+							<img src="http://delacour.ch/press/press-release-collection/{{pressRelease.id}}/Thumbnails/{{pressRelease.image}}">
+						</div>
+						<div class="large-6 columns textos">
+							<h7>{{pressRelease.name}}</h7><br>
+							<p class="small-style">
+							PDF document download<br>
+							<span ng-repeat="text in pressRelease.texts"><a href="http://delacour.ch/press/press-release-collection/{{pressRelease.id}}/Texts/{{text.zip}}">{{text.language}}</a>&nbsp;</span>
+							</p>
+						</div>
+					</div>
+					<div class="large-6 columns">
+						<div class="item-download small-style" ng-repeat="download in pressRelease.downloads">
+							<img src="http://delacour.ch/press/press-release-collection/{{pressRelease.id}}/Thumbnails/{{download.thumb}}"><br>
+							<span><a href="http://delacour.ch/press/press-release-collection/{{pressRelease.id}}/Images/{{download.tif}}">TIFF</a></span><br>
+							<span><a href="http://delacour.ch/press/press-release-collection/{{pressRelease.id}}/Images/{{download.jpg}}">JPEG</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- FIN PRESS RELEASE ITEM -->
+
+			<!-- PRESS RELEASE ITEM LIBRARY -->
+			<div class="row press-release-section">
+				<h5>Library</h5>
+			</div>
+
+			<!-- hacemos el filtro en Latest -->
+			<div class="row" ng-repeat="pressRelease in pressReleases.pressRelease.items | filter:{status:'library'}">
+				<div class="large-12 columns press-item">
+					<div class="large-6 columns ">
+						<div class="large-6 columns">
+							<img src="http://delacour.ch/press/press-release-collection/{{pressRelease.id}}/Thumbnails/{{pressRelease.image}}">
+						</div>
+						<div class="large-6 columns textos">
+							<h7>{{pressRelease.name}}</h7><br>
+							<p class="small-style">
+							PDF document download<br>
+							<span ng-repeat="text in pressRelease.texts"><a href="http://delacour.ch/press/press-release-collection/{{pressRelease.id}}/Texts/{{text.zip}}">{{text.language}}</a>&nbsp;</span>
+							</p>
+						</div>
+					</div>
+					<div class="large-6 columns">
+						<div class="item-download small-style" ng-repeat="download in pressRelease.downloads">
+							<img src="http://delacour.ch/press/press-release-collection/{{pressRelease.id}}/Thumbnails/{{download.thumb}}"><br>
+							<span><a href="http://delacour.ch/press/press-release-collection/{{pressRelease.id}}/Images/{{download.tif}}">TIFF</a></span><br>
+							<span><a href="http://delacour.ch/press/press-release-collection/{{pressRelease.id}}/Images/{{download.jpg}}">JPEG</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- FIN PRESS RELEASE ITEM -->
+
+			<div class="row">
+				<div class="large-12 columns email-press">
+					<h7>For further information, please feel free to contact us on <a href="mailto:marketing@delacour.ch">marketing@delacour.ch</a></h7>
+				</div>
+			</div>
+
+		</article>
+	</div>
+
+</div>
+
+</div>

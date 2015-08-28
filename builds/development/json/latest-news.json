@@ -1,0 +1,112 @@
+[
+	{
+		"url":"http://www.delacour.ch/news/index.php/delacour-supports-the-mother-teresa-foundation/",
+		"title":"delaCour supports the Mother Teresa Foundation",
+		"image":"motherTeresaFoundation.jpg",
+		"active":"1"
+	},
+	{
+		"url":"http://www.delacour.ch/news/index.php/first-anniversary-delacour-jakarta-boutique/",
+		"title":"First anniversary party of the deLaCour Jakarta Boutique",
+		"image":"jakartaBoutique.jpg",
+		"active":"1"
+	},
+	{
+		"url":"http://www.delacour.ch/news/index.php/delacour-grand-prix-f1-in-singapore/",
+		"title":"deLaCour Grand Prix Formula 1 in Singapore",
+		"image":"podiumLounge.jpg",
+		"active":"1"
+	},
+	{
+		"url":"http://www.delacour.ch/news/index.php/fantastic-luxury-event-delacour-asia-pacific/",
+		"title":"Fantastic luxury event at deLaCour Asia Pacific",
+		"image":"asiaPacific.jpg",
+		"active":"1"
+	},
+	{
+		"url":"http://www.delacour.ch/news/index.php/the-city-ego-chrono-45-fb/",
+		"title":"The City Ego Chrono 45 FB",
+		"image":"chr45fb.jpg",
+		"active":"1"
+	},
+	{
+		"url":"http://www.delacour.ch/news/index.php/delacour-paves-the-way/",
+		"title":"deLaCour paves the way",
+		"image":"lambEvent.jpg",
+		"active":"0 "
+	},
+	{
+		"url":"http://www.delacour.ch/news/index.php/the-city-cadet-tech/",
+		"title":"The City Cadet Tech",
+		"image":"cityCadetTech.jpg",
+		"active":"0"
+	},
+	{
+		"url":"http://www.delacour.ch/news/index.php/meeting-in-madrid/",
+		"title":"Meeting in Madrid",
+		"image":"inMadrid.jpg",
+		"active":"0"
+	},
+	{
+		"url":"http://www.delacour.ch/news/index.php/promess-vitrail/",
+		"title":"The Promess Vitrail",
+		"image":"promessVitrail.jpg",
+		"active":"0"
+	},
+	{
+		"url":"http://www.delacour.ch/news/index.php/doha-jewellery-and-watches-exhibition/",
+		"title":"Promess Vitrail at the 11th Doha Jewellery",
+		"image":"dohaExhibition.jpg",
+		"active":"0"
+	},
+	{
+		"url":"http://www.delacour.ch/news/index.php/delacour-opens-corner-in-japan/",
+		"title":"deLaCour opens its first corner in Japan",
+		"image":"deLaCourCornerJapan.jpg",
+		"active":"0"
+	},
+	{
+		"url":"http://www.delacour.ch/news/index.php/the-leap-s-snow/",
+		"title":"deLaCour presents the Leap/s Snow in Geneva",
+		"image":"leapSSnow.jpg",
+		"active":"0"
+	},
+	{
+		"url":"http://www.delacour.ch/news/index.php/delacour-with-100-women-in-hedge-funds/",
+		"title":"deLaCour with 100 Women in Hedge Funds",
+		"image":"100W.jpg",
+		"active":"0"
+	},
+	{
+		"url":"http://www.delacour.ch/news/index.php/city-ego-episode-bronze/",
+		"title":"City Ego Episode Bronze only for Jakarta",
+		"image":"cityBronze.jpg",
+		"active":"0"
+	},
+	{
+		"url":"http://www.delacour.ch/news/index.php/the-leap-s/",
+		"title":"The Leap /s",
+		"image":"theLeap.jpg",
+		"active":"0"
+	},
+	{
+		"url":"http://www.delacour.ch/news/index.php/20year-anniversary-of-buakhao-white-lotus-foundation/",
+		"title":"deLaCour supports the 20year anniversary...",
+		"image":"buakhao.jpg",
+		"active":"0"
+	},
+	{
+		"url":"http://www.delacour.ch/news/index.php/promess-lady-cleopatra/",
+		"title":"The Promess Lady Cleopatra",
+		"image":"promessCleopatra.jpg",
+		"active":"0"
+	},
+	{
+		"url":"http://www.delacour.ch/news/index.php/delacour-at-only-watch-2013/",
+		"title":"deLaCour at Only Watch 2013",
+		"image":"onlyWatch2013.jpg",
+		"active":"0"
+	}
+
+
+]

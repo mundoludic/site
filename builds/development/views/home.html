@@ -1,0 +1,46 @@
+<!-- Home -->
+<div id="slider-home">
+
+  <div class="row">
+
+    <div class="small-12 columns center">
+      <!-- Logo -->
+      <img id="logo" src="images/delacour_logo.png" alt="deLaCour Geneve" ng-show="logoWhite">
+    </div>
+
+    <div class="small-12 columns right" id="reflect-home">
+      <a href="collection/city/chrono-flyback"><img src="images/home/slide/cityChronoFlyback.png" title="The Reflect Chrono - deLaCour Luxury Chronograph" alt="The Reflect Chrono - deLaCour Luxury Chronograph" /></a>
+    </div>
+
+    <div class="small-12 columns" id="home-text">
+      <h1>The City Chrono Flyback</h1>
+      <h3><a href="collection/city/chrono-flyback" title="The City Chrono Flyback" alt="The City Chrono Flyback">CLICK TO DISCOVER</a></h3>
+    </div>
+
+  </div>
+
+
+</div>
+
+<div class="row" id="latest-news">
+
+  <div class="large-12 large-centered columns">
+
+      <h3>Latest News <small>- check all our <a href="http://www.delacour.ch/news/" target="_blank">deLaCour news</a></small></h3>
+  
+      <ul>
+        <li ng-repeat="new in latestNews">
+
+          <a href="{{new.url}}" target="_blank">
+            <div class="new-item">
+              <h6 ng-bind-html="new.title"></h6>
+            </div>
+            <img src="{{new.thumbnail_images.full.url}}">
+          </a>
+
+        </li>
+      </ul>
+
+  </div>
+
+</div>

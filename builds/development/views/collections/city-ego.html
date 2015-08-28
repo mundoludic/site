@@ -1,0 +1,44 @@
+<div class="row">
+	
+<!-- 	<ul class="small-12 small-centered columns breadcrumbs">
+	  <li><a href="press">City</a></li>
+	  <li class="current">City Ego Collection</li>
+	</ul> -->
+
+	<div class="main large-12 large-centered columns">
+
+		<h3>The City Collection</h3>
+		<a href="collection/catalogue/city"><h3 class="tp-button right">CITY CATALOGUE</h3></a>
+		<hr>
+
+		<article class="normal-style">
+			<br>
+			<p>Major innovation in the dial architectural field: a plunging construction, raised by a flange supporting the numerals thus offering better readability.</p>
+
+			<p>The bracelet fits perfectly to the case thanks to inward folded horns improving the ergonomics of this timepiece.</p>
+
+			<dl class="tabs">
+			  	<dd ng-click="onTab('caractere')" ng-class="{active:isActive('/collection/city/caractere')}"><a href="collection/city/caractere">Caractère</a></dd>
+			  	<dd ng-click="onTab('episode')" ng-class="{active:isActive('/collection/city/episode')}"><a href="collection/city/episode">Episode</a></dd>
+			  	<dd ng-click="onTab('chrono-flyback')" ng-class="{active:isActive('/collection/city/chrono-flyback')}"><a href="collection/city/chrono-flyback">Chrono Flyback</a></dd>
+			</dl>
+
+			<div class="tabs-content">
+			  <div ng-switch on="modelo">
+			  	<div ng-switch-when="caractere">
+			  		<caractere></caractere>
+			  	</div>
+			  	<div ng-switch-when="episode">
+			  		<episode></episode>
+			  	</div>
+			  	<div ng-switch-when="chrono-flyback">
+			  		<chrono45></chrono45>
+			  	</div>
+			  </div>
+			</div>
+			
+		</article>
+	</div>
+
+</div>
+

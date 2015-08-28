@@ -1,12 +1,184 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<title>Hellow World</title>
-</head>
-<body>
-	<p>It seems like it works!!!!!!</p>
+<!doctype html>
+<html class="no-js" lang="en" ng-app="delacourApp">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title ng-bind-html="'deLaCour Genève | '+$root.title">deLaCour Genève | Swiss Luxury Watches</title>
 
-	<script src="js/all-libraries.js"></script>
+    <link rel="shortcut icon" href="images/icons/dlc.ico" />
+    <link rel="alternate" type="application/rss+xml" title="Sitemap" href="sitemap.xml"/>
 
-</body>
+    <meta name="google-site-verification" content="c7m0JRLwKktcrXJpfFCI_OM-ParnYEOyDIjphkfrRmQ" />
+    <meta name="author" content="Mario Iglesias - www.marioiglesias.com - @marioip" />
+
+    <meta name="description" content="deLaCour Gen&egrave;ve. Luxury Watches & Swiss Watches, Since Tomorrow. Born from a passion for avant-garde design and craftsmanship deLaCour was established to offer alternative and exclusive creations to the world of luxury watch making." />
+
+    <meta name="keywords" content="delacour, delacour geneve, since tomorrow, individually crafted, delacour watches, swiss luxury watches, de la cour, delacour montres, swiss watches, fine timepieces, fine watchmaking" />
+
+    <!-- use the HTML5 History API, for locationProvider (remove hash in urls) -->
+    <!-- <base href="/"> -->
+    <!-- <base href="/sites/delacour/site/"> -->
+
+    <!-- Codigo seguimiento de google -->
+
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+      ga('create', 'UA-5586267-1', 'auto');
+      ga('require', 'displayfeatures');
+      ga('send', 'pageview');
+    </script>
+
+
+    <link rel="stylesheet" href="css/app.css">
+
+    <link rel="stylesheet" href="css/icons/foundation-icons.min.css" />
+
+  </head>
+
+  <body ng-controller="MainCtrl" ng-class="{'dlc-black' : dlcBlack, 'dlc-white' : dlcWhite}">
+
+    <div class="fixed" id="menu">
+
+      <nav class="top-bar" data-topbar>
+          <ul class="title-area">
+            <li class="name">
+              <h1><a href="/"><img src="images/icons/home.png" alt="deLaCour Genève"></a></h1>
+            </li>
+            <li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>
+          </ul>
+
+          <section class="top-bar-section">
+            <!-- Right Nav Section -->
+            <ul class="right">
+              <li class="top-bar-icons"><a href="http://www.facebook.com/deLaCourWatches" target="_blank" alt="deLaCour Facebook" title="deLaCour Facebook"><i class="fi-social-facebook"></i></a></li>
+              <li class="top-bar-icons"><a href="http://twitter.com/delacourwatches/" target="_blank" alt="deLaCour Twitter" title="deLaCour Twitter"><i class="fi-social-twitter"></i></a></li>
+             <!-- <li class="top-bar-icons"><a href="https://plus.google.com/117014028259300026710" rel="publisher" target="_blank"><i class="fi-social-google-plus"></i></a></li> -->
+              <li class="top-bar-icons"><a href="http://instagram.com/delacourwatches" target="_blank" alt="deLaCour Instagram" title="deLaCour Instagram"><i class="fi-social-instagram"></i></a></li>
+              <li class="top-bar-icons"><a href="http://www.youtube.com/delacourwatches/" target="_blank" alt="deLaCour Youtube" title="deLaCour Youtube"><i class="fi-social-youtube"></i></a></li>
+              <li class="top-bar-icons"><a href="http://www.pinterest.com/delacourwatches/" target="_blank" alt="deLaCour PinterestInstagram" title="deLaCour PinterestInstagram"><i class="fi-social-pinterest"></i></a></li>
+              <li class="divider"></li>
+              <li id="contact-btn"><a href="contact">CONTACT</a></li>
+            </ul>
+
+            <!-- Left Nav Section -->
+            <ul class="left">
+              <li><a href="history">HISTORY</a></li>
+              <li><a href="philosophy">PHILOSOPHY</a></li>
+              <!-- Collections -->
+              
+              <li class="has-dropdown not-click"><a href="collection">COLLECTION</a>
+                <ul class="dropdown">
+                  <li class="title back js-generated"><h5><a href="#">Back</a></h5></li>
+                  <li><a href="collection/catalogue" id="dropdown-catalogue">TIMEPIECE CATALOGUE</a></li>
+                  <li><label>FIRST COMPLICATIONS</label></li>
+                  <li><a href="collection/bitourbillon">Bitourbillon</a></li>
+                  <li><a href="collection/birepetition">Birepetition</a></li>
+                  <li class="divider"></li>
+                  <li><label>COMPLICATIONS</label></li>
+                  <li><a href="collection/triplezone">Triplezone</a></li>
+                  <li><a href="collection/monotourbillon">Monotourbillon</a></li>
+                  <li><label>FAMILIES</label></li>
+                  <li><a href="collection/bichrono">Bichrono</a></li>
+                  <li><a href="collection/city">City</a></li>
+                  <li><a href="collection/leap">Leap</a></li>
+                  <li><a href="collection/saqra">Saqra</a></li>
+                  <li><a href="collection/reflect">Reflect</a></li>
+                  <li><a href="collection/promess">Promess</a></li>  
+                </ul>
+              </li>
+              <li><a href="news" target="_self">NEWS</a></li>
+              <!-- <li><a href="editorial/all/all">EDITORIAL</a></li> -->
+              <li><a href="press">PRESS</a></li>
+              <li><a href="store-locator">STORE LOCATOR</a></li>
+
+            </ul>
+          </section>
+        </nav>
+
+    </div>
+
+    <!-- Home logo -->
+    <!-- <div id="content-logo-home" ng-show="isHome()"></div> -->
+
+    <!-- Website logo -->
+    <div id="content-logo" ng-show="!isHome()">
+      <div id="logo">
+
+        <h1>
+          <a href="/" ng-click="setRoute('history')">
+            <img src="images/delacour_logo.png" alt="deLaCour Geneve" ng-show="logoWhite">
+            <img src="images/delacour_logo_black.png" alt="deLaCour Geneve" ng-show="logoBlack">
+          </a>
+        </h1>
+
+      </div>
+    </div>
+
+    <!-- Content section -->
+    <div ng-view="">
+    </div>
+
+    <footer id="footer">
+    <div class="row">
+
+    <div class="large-12 large-centered columns">
+
+      <div class="row normal-style">
+
+        <div class="large-6 columns" id="location">
+          <h5>Location</h5>
+          <hr />
+          <address>
+            <h6>Gen&egrave;ve</h6>
+            6, rue Adh&eacute;mar - Fabri 1201<br>
+            <abbr title="Phone">p</abbr>. +41 22 731 72 80<br>
+            <abbr title="Email">e</abbr>. <a href="mailto:info@delacour.ch">info@delacour.ch</a>
+          </address>
+          <a href="contact" class="secondary button">Contact us</a>
+        </div>
+        
+        <div class="large-6 columns">
+          <h5>Stay Connected</h5>
+          <hr />
+          
+          <div id="social-foot" class="row">
+            <div class="large-12 columns">
+
+              <div class="small-12 columns">
+                <li class="top-bar-icons"><a href="http://www.facebook.com/deLaCourWatches" target="_blank" alt="deLaCour Facebook" title="deLaCour Facebook"><i class="fi-social-facebook"></i></a></li>
+                <li class="top-bar-icons"><a href="http://www.pinterest.com/delacourwatches/" alt="deLaCour Pinterest" title="deLaCour Pinterest"><i class="fi-social-pinterest"></i></a></li>
+                <li class="top-bar-icons"><a href="http://twitter.com/#!/delacourwatches/" target="_blank" alt="deLaCour Twitter" title="deLaCour Twitter"><i class="fi-social-twitter"></i></a></li>
+                <li class="top-bar-icons"><a href="http://www.youtube.com/delacourwatches/" target="_blank" alt="deLaCour Youtube" title="deLaCour Youtube"><i class="fi-social-youtube"></i></a></li>
+                <li class="top-bar-icons"><a href="http://instagram.com/delacourwatches" target="_blank" alt="deLaCour Instagram" title="deLaCour Instagram"><i class="fi-social-instagram"></i></a></li>
+              </div>
+
+            </div>
+            <div class="large-12 columns subscribe-newsletter">
+
+              <form action="http://delacour.us4.list-manage1.com/subscribe/post?u=ab9fbd61b8e64a2782864b1b8&amp;id=dccbb54cae" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+                <br>
+                <div class="large-8 columns">
+                        <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="(email) Subscribe to our mailing list" required>
+                    </div>
+                    <div class="large-4 columns">
+                      <input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="secondary button">
+                    </div>
+              </form>
+            </div>
+          </div>
+      </div>
+    </div>
+
+    </div>
+
+    <script src='//maps.googleapis.com/maps/api/js?sensor=false&libraries=places'></script>
+
+    <script src="js/all-libraries.js"></script>
+
+    <script src="js/main.js"></script>
+
+  </body>
 </html>

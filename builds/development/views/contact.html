@@ -1,0 +1,174 @@
+
+<div class="row">
+
+<div id="contact" class="main small-10 small-centered columns">
+
+		<h3>deLaCour Genève Contact</h3>
+		<hr>
+		<article class="normal-style">
+		<br>
+		<div class="row">
+			<div class="small-12 columns text-center">
+				<address>
+		            6, rue Adh&eacute;mar - Fabri 1201 Genève | 
+		            <abbr title="Phone">p</abbr>.+41 22 731 72 80 
+		            <abbr title="Email"> e</abbr>.<a href="mailto:info@delacour.ch">info@delacour.ch</a>
+		         </address>
+			</div>
+		</div>	
+		<br>
+			<div class="row">
+				<div class="large-12 columns text-contact">
+					<p><em>deLaCour makes every effort to bring you the greatest possible satisfaction. With the aim of constantly improving our service, we would ask you to inform us of any questions or comments you may have concerning our brand.</em></p>
+					<p><em>Please contact directly the department related to your request.</em></p>
+				</div>
+			</div>
+
+		<form name="formContact" class="css-form" novalidate>
+
+			<label class="info">Required fields *</label>
+			<hr>
+
+				<div class="row">
+			      	<div class="small-6 columns required">
+			        	<label>First Name *</label>
+			        	<input 
+			        		type="text" 
+			        		placeholder="Insert your name" 
+			        		ng-minlength="3" 
+			        		ng-maxlength="30" 
+			        		ng-model="user.firstName" required>
+			      	</div>
+			      	<div class="small-6 columns">
+			        	<label>Last Name</label>
+			        	<input 
+			        		type="text" 
+			        		placeholder="Insert your name" 
+			        		ng-minlength="3" 
+			        		ng-maxlength="30" 
+			        		ng-model="user.lastName">
+			      	</div>
+			    </div>
+
+			    <div class="row">
+			      	<div class="small-6 columns required">
+			        	<label>Email *</label>
+			        	<input 
+			        		type="email" 
+			        		placeholder="Insert your name" 
+			        		ng-model="user.email" required>
+			      	</div>
+			      	<div class="small-6 columns">
+			        	<label>Telephone</label>
+			        	<input 
+			        		type="text" 
+			        		placeholder="Insert your name" 
+			        		ng-minlength="6" 
+			        		ng-maxlength="30" 
+			        		ng-model="user.telephone">
+			      	</div>
+			    </div>
+
+			    <div class="row">
+
+				    <div class="small-4 columns">
+				      <label>Country</label>
+				      <select class="medium" ng-model="user.country">
+				        <option value="" selected>Select your country</option>
+				        <option ng-repeat="country in countries">{{country.name}}</option>
+				      </select>
+				    </div>
+
+				    <div class="small-4 columns">
+			        	<label>City</label>
+			        	<input 
+			        		type="text" 
+			        		placeholder="Insert your city" 
+			        		ng-minlength="3" 
+			        		ng-maxlength="30" 
+			        		ng-model="user.city">
+			      	</div>
+
+				   	<div class="small-4 columns">
+			        	<label>Postal code</label>
+			        	<input 
+			        		type="text" 
+			        		placeholder="Insert your postal code" 
+			        		ng-minlength="3" 
+			        		ng-maxlength="20" 
+			        		ng-model="user.postalCode">
+			      	</div>
+
+		    	</div>
+
+		    	<div class="row">
+
+		    		<div class="small-6 columns">
+				      <label>Type of request</label>
+				      <select class="medium" ng-model="user.typeRequest">
+				        <option value="" selected>Select please...</option>
+				        <option ng-repeat="type in types">{{type.type}}</option>
+				      </select>
+				    </div>
+
+				    <div class="small-6 columns">
+				      <label>How do you find us?</label>
+				      <select class="medium" ng-model="user.findUs">
+				        <option value="" selected>Select please...</option>
+				        <option ng-repeat="find in finds">{{find.name}}</option>
+				      </select>
+				    </div>
+
+		    	</div>
+
+		    	<div class="row">
+			    	<div class="small-12 columns required">
+			        	<label>Comments *</label>
+			        	<textarea 
+			        		ng-model="user.comments" 
+			        		placeholder="Insert your comments" 
+			        		ng-minlength="3" required>
+			        	</textarea>
+			      	</div>
+			    </div>
+
+			    <div class="row">
+			    	<div class="small-12 columns">
+					    <input 
+					    	type="checkbox" 
+					    	ng-model="newsletter" checked>
+					    <span class="custom checkbox">I wish to receive news updates from deLaCour</span>
+				  	</div>
+				</div>
+
+				<div class="row">
+		    		<div class="small-12 columns text-center">
+      					<a class="secondary button"  ng-disabled="formContact.$invalid" ng-click="onSend(formContact.$valid)">Send</a>
+    				</div>
+		    	</div>
+
+		</form>
+
+		</article>
+</div>
+
+<!-- MODAL WINDOW -->
+
+		<div id="contact-modal-alert" class="reveal-modal small" data-reveal>
+	  		
+	  		<h7>{{msg}}</h7>
+
+	  		<a class="close-reveal-modal">&#215;</a>
+		</div>
+
+		<div id="contact-modal-success" class="reveal-modal small" data-reveal>
+	  		
+	  		<h7>{{msg}}</h7>
+	  		<br>
+	  		<br>
+	  		<h7>Go to <a href="#">deLaCour home page</a></h7>
+
+	  		<a ng-click="onCloseModal()" class="close-reveal-modal">&#215;</a>
+		</div>
+
+</div>

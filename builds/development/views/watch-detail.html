@@ -1,0 +1,92 @@
+
+<div class="watch-menu-content watch-menu-detail">
+
+		<div class="all-collection"><a href="collection/catalogue/all">Show all collection</a> | <a href="catalogues/master-catalogue/2015/150407-Catalogue_2015.pdf" target="_blank">Print full Catalogue</a></div>
+
+		<ul>
+			<li ng-repeat="family in families">
+				<a href="collection/catalogue/{{family}}"><h3>{{family | uppercase}}</h3></a>
+			</li>
+			<li><a href="collection/catalogue/specialtimepieces"><h3>SPECIAL TIMEPIECES</h3></a></li>
+		</ul>
+
+</div>
+
+<div class="row watch-detail">
+
+	<div class="small-12 columns">
+		<h5><a href="collection/catalogue/">dLC collection</a> / <a href="collection/catalogue/{{family}}">{{family}}</a></h5>
+		<h3>{{watchDetail.collection}}</h3>
+	</div>
+
+	<div class="small-12 columns">
+
+		<div class="small-8 small-offset-2 medium-4 large-4 large-offset-1 columns image-detail">
+			<div class="small-12 columns">
+				<div class="new" ng-show="{{watchDetail.new}}">NEW</div>
+				<img ng-src="images/collections/watches/{{watchDetail.ref}}.jpg">
+				<a href="http://www.delacour.ch/images/collections/watches/{{watchDetail.ref}}.jpg" title="{{watchDetail.collection}}" alt="{{watchDetail.collection}}" target="_blank">Download image</a>
+			</div>
+			<ul class="small-block-grid-2 medium-block-grid-2 large-block-grid-3 menu-others">
+			  <li ng-repeat="watch in watchesCollection"><a href="collection/catalogue/{{family}}/{{watch.ref}}"><img ng-src="images/collections/watches/{{watch.ref}}.jpg"></a></li>
+			</ul>
+		</div>
+
+		<div class="small-12 medium-6 large-5 columns spec-detail">
+
+		<h5>Technical Specifications</h5>
+		<hr>
+			<ul>
+				<li>
+					<span class="def">REFERENCE</span><br>
+					<span class="val">{{watchDetail.ref}}</span>
+				</li>
+				<li>
+					<span class="def">MOVEMENT</span><br>
+					<span class="title">Calibre </span><span class="val">{{watchDetail.calibre}} {{watchDetail.type_movement}}</span><br>
+					<div ng-show="watchDetail.power_reserve"><span class="title">Power reserve</span> <span class="val">{{watchDetail.power_reserve}} hours</span></div>
+				</li>
+				<li>
+					<span class="def">FUNCTIONS</span><br>
+					<span class="val">{{watchDetail.functions}}</span>
+				</li>
+				<li>
+					<span class="def">CASE</span><br>
+					<span class="title">Dimensions: </span><span class="val">{{watchDetail.dimensions}} mm</span><br>
+					<span class="title">Material: </span><span class="val">{{watchDetail.description}}</span><br>
+					<span class="title">Water resistant: </span><span class="val">{{watchDetail.water_resistant}} atm</span><br>
+					<div ng-show="watchDetail.white_dia_case"><span class="title">White diamonds: </span><span class="val">{{watchDetail.white_dia_case}}</span><br></div>
+					<div ng-show="watchDetail.black_dia_case"><span class="title">Black diamonds: </span><span class="val">{{watchDetail.black_dia_case}}</span><br></div>
+					<span class="title">Glass: </span><span class="val">{{watchDetail.glass}}</span><br>
+					<div ng-show="watchDetail.back"><span class="title">Back: </span><span class="val">{{watchDetail.back}}</span><br></div>
+					<span class="title">Crown: </span><span class="val">{{watchDetail.crown}} mm</span>
+				</li>
+				<li>
+					<span class="def">DIAL</span><br>
+					<span class="val">{{watchDetail.dial_description}}</span><br>
+					<div ng-show="watchDetail.white_dia_dial"><span class="title">White diamonds: </span><span class="val">{{watchDetail.white_dia_dial}}</span><br></div>
+					<div ng-show="watchDetail.black_dia_dial"><span class="title">Black diamonds: </span><span class="val">{{watchDetail.black_dia_dial}}</span><br></div>
+					<div ng-show="watchDetail.color_stones_dial"><span class="title">Color stones: </span><span class="val">{{watchDetail.color_stones_dial}}</span></div>
+				</li>
+				<li>
+					<span class="def">HANDS</span><br>
+					<span class="val">{{watchDetail.hands}}</span>
+				</li>
+				<li>
+					<span class="def">STRAP</span><br>
+					<span class="val">{{watchDetail.strap}}</span>
+				</li>
+				<li>
+					<span class="def">LIMITED EDITION</span><br>
+					<span class="val">{{watchDetail.limited_edition}}</span>
+				</li>
+				<br>
+				<li>
+					<span class="val"><a href="http://www.delacour.ch/catalogues/instruction-manual/{{watchDetail.instructionManual}}" target="_blank" title="Instruction Manual - {{watchDetail.collection}}" alt="Instruction Manual - {{watchDetail.collection}}" >Download Instruction Manual</a></span>
+				</li>
+			</ul>
+
+		</div>
+
+	</div>
+</div>

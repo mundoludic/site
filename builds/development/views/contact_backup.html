@@ -1,0 +1,145 @@
+
+<div class="row">
+
+<div class="main small-10 small-centered columns">
+
+		<h3>deLaCour Genève Contact</h3>
+		<hr>
+		<article class="normal-style">
+
+			<div class="row">
+				<div class="large-12 columns text-contact">
+					<p><em>deLaCour makes every effort to bring you the greatest possible satisfaction. With the aim of constantly improving our service, we would ask you to inform us of any questions or comments you may have concerning our brand.</em></p>
+					<p><em>Please contact directly the department related to your request.</em></p>
+				</div>
+			</div>
+
+		<form name="formContact" class="css-form" novalidate>
+
+			<div class="main-information">
+
+			<label class="info">Main information <i>(required)</i></label>
+			<hr>
+
+				<div class="row">
+			      	<div class="large-6 columns require">
+			        	<label>Name *</label>
+			        	<input type="text" placeholder="Insert your name" ng-model="user.firstName" required>
+			      	</div>
+			      	<div class="large-6 columns require">
+			    		<label>Email address *</label>
+			        	<input type="email" placeholder="Insert your email" ng-model="user.email" required>
+			    	</div>
+			    </div>
+
+			    <div class="row">
+			    	<div class="large-12 columns require">
+			        	<label>Comments *</label>
+			        	<textarea name="comments" ng-model="user.comments" placeholder="Insert your comments" required></textarea>
+			      	</div>
+			    </div>
+
+			    <div class="row">
+			    	<div class="large-12 columns">
+					    <input type="checkbox" ng-model="user.newsletter" checked>
+					    <span class="custom checkbox">I wish to receive news updates from deLaCour</span>
+				  	</div>
+				</div>
+
+			</div>
+
+				<label class="info"><a href="" ng-click="onAdditionalInformation()">Fill additional information</a></label>
+
+			<div class="additional-information">
+				<hr>
+
+			    <div class="row">
+			    	
+			    	<div class="large-6 columns">
+		        	<label>Telephone</label>
+		        	<input type="text" placeholder="Insert your telephone" ng-model="user.telephone">
+		      	</div>
+			    </div>
+
+		    <div class="row">
+
+			    <div class="large-4 columns">
+			      <label for="selectCountry">Select your country</label>
+			      <select id="selectCountry" class="medium" ng-model="user.selectCountry">
+			        <option value="" selected>Select your country</option>
+			        <option ng-repeat="country in countries.countriesList">{{country.name}}</option>
+			      </select>
+			    </div>
+
+			    <div class="large-4 columns">
+		        	<label>City</label>
+		        	<input type="text" placeholder="Insert your city" ng-model="user.city">
+		      	</div>
+			   	<div class="large-4 columns">
+		        	<label>Postal code</label>
+		        	<input type="text" placeholder="Insert your postal code" ng-model="user.postalCode">
+		      	</div>
+		    </div>
+
+		    <div class="row">
+		    	<div class="large-6 columns">
+				      <label for="typeRequest">Select type of request</label>
+				      <select id="typeRequest" class="medium" ng-model="user.typeRequest">
+				        <option value="" selected>Select type of request</option>
+				        <option ng-repeat="type in typeRequest.typeRequest">{{type.type}}</option>
+				      </select>
+				    </div>
+		      	<div class="large-6 columns custom dropdown medium right">
+			      <label for="findUs">How do you find us?</label>
+			      <select id="findUs" class="medium" ng-model="user.findUs">
+			      	<option value="" selected>How do yo find us?</option>
+			        <option ng-repeat="find in findUs.findUs">{{find.name}}</option>
+			      </select>
+			    </div>
+		    </div>
+		</div>
+
+			
+
+		    	<div class="row">
+		    		<div class="small-12 columns text-center">
+		    			<br>
+      					<a class="secondary button" ng-click="addSubscriber(userSubscribe.$valid)">Send</a>
+    				</div>
+		    	</div>
+
+		    <pre>form = {{user | json}}</pre><br>
+		    <pre>{{userSubscribe.$valid}}</pre>
+		    <br>
+		    <hr>
+		    <div class="row">
+				<div class="large-12 columns email-contact">
+					<h6>For more information, please write to <a href="mailto:info@delacour.ch">info@delacour.ch</a></h6>
+				</div>
+			</div>
+
+		</form>
+
+		</article>
+</div>
+
+<!-- MODAL WINDOW -->
+
+		<div id="contact-modal-alert" class="reveal-modal small">
+	  		
+	  		<h7>{{msg}}</h7>
+
+	  		<a class="close-reveal-modal">&#215;</a>
+		</div>
+
+		<div id="contact-modal-alert2" class="reveal-modal small">
+	  		
+	  		<h7>{{msg}}</h7>
+	  		<br>
+	  		<br>
+	  		<h7>Go to <a href="#">deLaCour home page</a></h7>
+
+	  		<a class="close-reveal-modal">&#215;</a>
+		</div>
+
+</div>

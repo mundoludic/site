@@ -1,0 +1,57 @@
+<div class="row">
+
+<div id="editorial" class="main small-12 small-centered columns">
+
+	<h3>Press clipping</h3>
+	<hr>
+
+	<div class="small-12 columns filter-box">
+		<div class="small-8 columns">
+			<dl class="sub-nav">
+			  <dt>Year:</dt>
+			  <dd ng-repeat="year in years" ng-class="{active: isActive(year)}"><a href="editorial/{{year.data}}/{{country}}/">{{year.name}}</a></dd>
+			</dl>
+		</div>
+		<div class="small-4 columns countries">
+			<label>COUNTRY:</label>
+			<select ng-change="onChangeCountry(country)" ng-model="country">
+				<option ng-repeat="country in countries" value="{{country.value}}">{{country.name}}</option>
+			</select>
+	  	</div>
+  	</div>
+
+	<div class="row">
+		<ul>
+			<li ng-repeat="clipping in editorial | orderBy:'-year' | orderBy:'country'">
+				<a ng-click="onClip($index)">
+					<h5>{{clipping.country | uppercase}}</h5>
+					<time>{{clipping.date}}</time>
+						<img src="http://delacour.ch/press/editorial/{{clipping.year}}/thumbs/thumbs_{{clipping.image}}" data-caption="{{clipping.caption}}">
+				</a>
+			</li>
+		</ul>
+	</div>
+
+	<!-- Directive modal clippings -->
+	<div id="modal-clippings" clearing></div>
+
+	<!-- Alert Panel -->
+	<div class="row alert-box">
+		<div class="panel">
+  			<h5>There is not clippings with this chosen.</h5>
+  			<p>Do you want to see other clippings of <a href="editorial/all/{{routeCountry}}/">{{routeCountry}}</a></p>
+		</div>
+	</div>
+	<!-- Fin Alert Panel -->
+
+	<!-- FIN EDITORIAL -->
+
+	<div class="row foot-box">
+		<div class="large-12 columns email-press">
+			<h6>For further information, please feel free to contact us on <a href="mailto:marketing@delacour.ch">marketing@delacour.ch</a></h6>
+		</div>
+	</div>
+
+</div>
+
+</div>

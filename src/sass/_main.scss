@@ -1,0 +1,1196 @@
+// global styles
+
+// body main styles
+
+.dlc-black{
+	background-color: #000;
+	background-image: url("../images/metal-patter.jpg");
+	margin: 0;
+	padding: 0;
+	color: $white;
+}
+
+.dlc-white{
+	background-color: #fff;
+	margin: 0;
+	padding: 0;
+	color: $black;
+}
+
+.dlc-box{
+	background-color: #fff;
+	@include simple-border-radius(4px);
+	@include simple-box-shadow(darken($white, 7%));
+	border-left: 1px solid darken($white, 5%);
+	border-right: 1px solid darken($white, 5%);
+	border-bottom: 1px solid darken($white, 5%);
+}
+
+.table{
+	display: table;
+}
+
+.table-cell{
+	display: table-cell;
+	vertical-align: middle;
+}
+
+hr{
+    border: 0;
+    height: 0;
+    margin: 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.panel{
+	margin-top: 40px;
+	background-color: $black;
+	border-color: darken($grey, 20%);
+	h3, h5, p {
+		color: darken($white, 20%);
+	}
+	hr{
+		margin-bottom: 60px;
+	}
+	a{
+		text-decoration: underline;
+	}
+	p{
+		margin-top: 60px;
+		font-size: rem-calc(12);
+		text-align: center;
+	}
+	h5{
+		text-align: center;
+		font-size: rem-calc(15);
+		margin: 0;
+		margin-bottom: 25px;
+		a{
+			font-size: rem-calc(15);
+		}
+	}
+}
+
+.reveal-modal{
+	background-color: $grey;
+	border-radius: 4px;
+
+	h3{text-align: left;}
+}
+
+li{
+	list-style: none;
+}
+
+.figure{
+	text-align: center;
+	margin: 20px 0px;
+}
+
+.tech-details{
+	margin-left: 20px;
+	b{
+		padding-right: 7px;
+	}
+}
+
+.center{
+	text-align: center;
+}
+
+.flex-video{margin: 20px 0px;}
+
+.full-width{
+	padding: 20px 0px 0px 0px;
+	@include background-color;
+	@include box-white-shadow;
+}
+
+.header-map{
+	margin: 0px 20px;
+	h3{
+		margin-left: 5px;
+	}
+}
+
+/***** GENERAL STYLES *******/
+
+select, select:hover{
+	background-color: lighten($black, 10%);
+	border: 1px solid lighten($black, 20%);
+	color: darken($white, 20%);
+}
+
+select:hover{
+	background-color: lighten($black, 15%);
+}
+
+/***** FOUNDATION COMPONENTS *******/
+
+.tabs{
+	margin-top: 25px;
+	dd{
+		a{
+			padding: 12px 25px;
+			background-color: lighten($black, 10%);
+			color: darken($white, 10%);
+		}
+		a:hover{
+			background-color: lighten($black, 15%);
+		}
+	}
+	dd.active a{
+		background-color: lighten($black, 20%);
+		color: $white;
+	}
+}
+
+.tabs-content{
+	margin-top: 20px;
+}
+
+.alert-box.success{
+	margin-top: 10px;
+	background-color: lighten($black, 15%);
+	border: 1px solid lighten($black, 20%);
+	color: darken($white, 10%);
+	.close{
+		color: darken($white, 10%);
+	}
+}
+
+.breadcrumbs{
+	a:link{
+		color: darken($white, 10%);
+	}
+}
+
+//orbit
+
+.orbit-container .orbit-timer .orbit-progress{
+	height: 1px;
+}
+
+.orbit-bullets{
+  opacity: 0.7;
+  margin: 10px;
+  margin-bottom: 20px;
+  padding-left: 50%;
+  text-align: center;
+  display: block;
+}
+
+.breadcrumbs{
+	background-color: lighten($black, 2%);
+	border: 0;
+	margin-bottom: 15px;
+}
+
+// botones
+
+.button{
+	background-color: darken($white, 10%);
+	color: $grey;
+	padding: 10px 20px;
+	:hover{
+		background-color: $white;
+	}
+}
+
+// color de los vinculos del creadcrumbs
+ul.small-12 > li:nth-child(1) > a:nth-child(1){
+	color: lighten($white, 20%);
+}
+
+/***** dLC Collection Styles *****/
+
+
+
+/***** TOP BAR *******/
+
+// Top bar
+
+#menu{
+	border-bottom: 1px solid lighten($black, 20%);
+	background-color: $black;
+	label{
+		color: darken($white,20%);
+	}
+	a{
+		text-decoration: none;
+	}
+}
+
+.top-bar{
+	background-color: $black;
+	.right{
+		margin: 0;
+	}
+}
+
+.top-bar-section{
+	.right{
+		margin-right: 15px;
+		li a:not(.button) {
+			padding: 5px 8px 0 8px;
+			line-height: 25px;
+		}
+	}
+	.divider{
+		margin: 0 10px;
+	}
+	#contact-btn{
+		padding-top: 5px;
+	}
+}
+
+.top-bar-icons{
+	i{
+		margin-top: 10px;
+		font-size: rem-calc(35);
+	}
+}
+
+#dropdown-catalogue{
+	font-family: "EB Garamond",serif;
+	font-size: 1em;
+	background-color: #eeeeee;
+	color: lighten($black, 10%);
+	background: #ededed url("../images/collections/bc_lineal_small.png") repeat scroll 20% 50%;
+}
+
+#dropdown-catalogue:hover{
+	background-color: #dedede;
+	color: lighten($black, 10%);
+}
+
+// Head
+
+.video-head{
+	margin-bottom: 20px;
+	video{
+		margin-left: -20px;
+	}
+}
+
+// latest news
+
+.call-action{
+	padding-top: 40px;
+	padding-bottom: 20px;
+	background-color: lighten($black, 20%);
+	input{
+		display: inline-block;
+	}
+	h5{
+		padding-top: 5px;
+		font-size: rem-calc(17);
+	}
+	.x{
+		padding-top: 5px;
+		i{
+			font-size: rem-calc(25);
+		}
+	}
+}
+
+/****** NG VIEW *******/
+
+.main{
+	
+	@include background-color;
+	padding: $padding-box;
+
+	@include border-radius-top(5px);
+
+	h3{
+		display: inline-block;
+		font-family: 'EB Garamond', serif;
+		font-size: rem-calc(22);
+		i{
+			color: darken($white, 20%);
+			font-size: rem-calc(18);	
+		}
+	}
+
+	h4{
+		font-family: 'EB Garamond', serif;
+		font-size: rem-calc(21);
+	}
+
+	p{margin: 10px 0px;}
+
+	article{
+		margin-bottom: 40px;
+	}
+
+}
+
+.tp-button{
+	background: url('../images/collections/bc_lineal_small.png');
+	background-color: darken(white, 7%);
+	background-position: 20% 50%;
+	color: lighten($black, 10%);
+	padding: 8px 20px 4px 20px;
+	@include border-radius(2px);
+}
+
+// COLLECTIONS
+
+#collection-page{
+	text-align: center;
+	margin: 0;
+	padding: 0 15px;
+	h2{
+		padding: 40px 0px 25px 0px;
+	}
+	h4{
+		margin-top: 30px;
+	}
+	article{
+		padding-bottom: 40px;
+	}
+}
+
+// full collection button
+.full-collection{
+	background: url('../images/collections/bc_lineal.png');
+	background-color: darken(white, 7%);
+	background-position: 0% 80%;
+	@include box-black-shadow;
+	height: 125px;
+	h3{
+		font-family: 'EB Garamond', serif;
+		font-size: rem-calc(40);
+		line-height: rem-calc(40);
+		color: lighten($black, 10%);
+		letter-spacing: rem-calc(20);
+		margin-top: 30px;
+	}
+	h5{
+		color: black;
+		font-size: rem-calc(16);
+	}
+}
+
+.full-collection:hover{
+	background-color: darken(white, 0%);
+}
+
+.new{
+	position: absolute;
+	background-color: rgba(209, 29, 41, 1);
+	color: white;
+	font-size: rem-calc(13);
+	padding: 0 7px;
+	@include border-radius(2px);
+}
+
+// WATCHES
+
+.watch{
+	display: inline-block;
+	margin: 20px;
+	h5{
+		color: lighten($black, 20%);
+		margin: 10px 0 0 0;
+	}
+	h6{
+		color: lighten($black, 50%);
+		font-style: italic;
+	}
+	img{
+		background-color: $white;
+	}
+}
+
+.watch-content{
+	margin: 0;
+	padding: 0;
+}
+
+// media query for watch menu control
+@media (max-width: 925px) {
+  .watch-menu {
+    display: none;
+  }
+  .watch-menu-devices{
+    display: block;
+  }
+}
+
+@media (min-width: 925px) {
+  .watch-menu {
+    display: block;
+  }
+  .watch-menu-devices{
+    display: none;
+  }
+}
+
+.watch-menu-content{
+	text-align: center;
+	background-color: lighten($white, 10%);
+	@include box-white-shadow;
+	opacity: 0.8;
+	z-index: 15;
+	padding: 10px 0;
+	li{
+		display: inline-block;
+		margin-left: -20px;
+	}
+	h3{
+		color: $black;
+		font-size: 1.1em;
+		padding-left: 0;
+		padding-right: 0;
+		padding-top: 60px;
+	}
+	
+	img{
+		width: 90%;
+		height: 90%;
+	}
+	h5{
+		color: lighten($black, 30%);
+		font-weight: 100;
+		font-size: 1.1em;
+		margin-top: 15px;
+		letter-spacing: 0.2em;
+	}
+}
+
+.watch-menu-detail{
+	height: 100px;
+	li{
+		margin-right: 20px;
+	}
+	h3{
+		width: 140px;
+		margin: 0;
+		padding: 0;
+	}
+}
+
+.menu-all{
+	height: 100%;
+	top: 0;
+}
+
+.all-collection, .all-collection a{
+	top: 0;
+	text-align: center;
+	color: lighten($black, 40%);
+}
+
+.menu-all-box{
+	padding-top: 90px;
+	height: 120px;
+}
+
+.special-timepieces-menu{
+	margin: 0;
+	padding: 0;
+	h3{
+		border: 1px splid blue;
+		margin-top: -30px;
+		color: lighten($black, 20%);
+		font-family: 'EB Garamond', serif;
+		font-size: 1.3em;
+		font-weight: 400;
+	}
+	a{
+		text-decoration: none;
+	}
+}
+
+.watch-over{
+	h5{
+		max-width: 225px;
+	}
+	h4{
+		color: $black;
+	}
+	position: absolute;
+	background-color: #fff;
+	padding: 20px 15px;
+	@include box-white-shadow;
+	margin-top: -300px;
+	margin-left: -40px;
+}
+
+.watch-detail{
+	h3{
+		text-align: center;
+		margin: 20px 0 40px 0;
+		font-family: 'EB Garamond', serif;
+		color: lighten($black, 20%);
+		font-size: 1.8em;
+		font-weight: 400;
+
+	}
+	h5{
+		text-align: left;
+		margin-top: 30px;
+		margin-left: 35px;
+		color: lighten($black, 40%);
+		a{
+			color: lighten($black, 40%);
+		}
+	}
+	.all-family{
+		font-size: 1.1em;
+	}
+	.image-detail{
+		text-align: center;
+		img{
+			margin-bottom: 10px;
+		}
+	}
+	.spec-detail{
+		padding: 25px;
+		// background-color: lighten($white, 10%);
+		@include box-white-shadow;
+
+		h5{
+			color: lighten($black, 40%);
+			font-size: 1.1em;
+			margin: 0 0 5px 10px;
+		}
+		hr{
+			margin-bottom: 10px;
+		}
+		.def{
+			width: 40%;
+			color: lighten($black, 80%);
+			font-size: 0.7em;
+			font-style: italic;
+		}
+		.val{
+			width: 60%;
+			color: lighten($black, 40%);
+			font-size: 0.8em;
+		}
+		.title{
+			color: lighten($black, 60%);
+			font-size: 0.8em;
+		}
+	}
+}
+
+.menu-others{
+	margin-top: 20px;
+
+	li, img, ul, a{
+		margin: 0;
+		padding: 0;
+	}
+}
+
+// IMAGES VIDEO BEHAVIUR
+
+.image-video{ 
+
+    vertical-align: middle;
+
+    .btn-play{
+        position: absolute;
+        opacity: 0.8;
+        margin-top: -180px;
+        left: 50%;
+        margin-left: -50px;
+        width: 100px;
+        height: 100px;
+        border-radius: 60px 60px 60px 60px;
+        background-color: $grey;
+        background-position: center center;
+
+        font-size: rem-calc(19);
+        font-weight: bold;
+        color: $white;
+        z-index: 10;
+        text-align: center;
+    }
+    .btn-play:hover{
+        background-color: lighten($grey, 20%);
+    }
+}
+
+#video{
+    display: none;
+}
+
+// COLLECTION CONTENT
+
+.banner-collection{
+	text-align: center;
+	@include background-color;
+	nav{
+		ul{
+			li{
+				padding-top: 15px;
+				padding-bottom: 5px;
+			}
+		}
+	}
+	figcaption{
+		font-size: rem-calc(13);
+	}
+}
+
+.banner-collection-ani{
+	background-color: darken($grey, 20%);
+}
+
+.customize-watch{
+	@include background-color;
+
+	text-align: center;
+	margin-bottom: 50px;
+}
+
+.foot-customize{
+	height: 80px;
+	margin-top: 50px;
+	@include background-color;
+}
+
+.img-inside-collection{
+	margin: 20px 0 40px 0;
+}
+
+// SLIDER BEHAVIOUR - ORBIT
+
+.slideshow-wrapper{
+		margin: 40px 0px; 
+	h4{
+		position: absolute;
+		bottom: 0;
+		width: 100%;
+		text-align: center;
+		margin-top: 0;
+		font-size: rem-calc(22);
+		color: darken($white, 10%);
+		background-color: rgba(0,0,0,0.7);
+		letter-spacing: rem-calc(2);
+		padding: 7px 0;
+	}
+
+	a, a:link{
+		font-size: rem-calc(12);
+	}
+}
+
+// BICHRONO SAGA
+
+#bichrono-saga{
+	.caption{
+		text-align: center;
+	}
+}
+
+// HISTORY
+
+#founders{
+	.caption{
+		margin-top: 7px;
+	}
+	h4{
+		text-align: center;
+		margin: 0;
+		margin-top: 35px;
+		margin-bottom: 5px;
+	}
+}
+
+// ABOUT
+
+#about{
+	h3{
+		padding-top: 10px;
+	}
+	h4{
+		letter-spacing: 0.1em;
+		font-size: 1.3em;
+		color: darken($white, 15%);
+		font-style: italic;
+	}
+	li{
+		font-size: 0.9em;
+		font-style: italic;
+		color: darken($white, 10%);
+	}
+}
+
+// FOOTER STYLE
+
+#location{
+	address{
+		line-height: rem-calc(15);
+		font-size: rem-calc(13);
+		color: darken($white, 10%);
+		margin-bottom: 15px;
+	}
+	h6{
+		font-size: rem-calc(14);
+	}
+}
+
+#social-foot{
+	margin-top: 20px;
+	margin-left: -20px;
+	img{
+		margin-right: 5px;
+	}
+	li{
+		display: inline-block;
+	}
+	i{
+		margin-right: 10px;
+		font-size: rem-calc(40);
+	}
+}
+
+#footer{
+	margin-top: 50px;
+	padding: 40px 30px 40px 30px;
+	background-color: $black;
+
+	h6{
+		margin: 10px 0px;
+	}
+
+	h5{
+		color: darken($white, 20%);
+		font-size: rem-calc(15);
+	}
+}
+
+.subscribe-newsletter{
+	margin-top: 10px;
+	form{
+		padding: 0;
+	}
+}
+
+#mce-EMAIL{
+	height: 37px;
+}
+
+// Store Locator
+
+#map{
+	height: 600px;
+	margin: 0;
+	color: $black;
+
+	// esta línea arregla el error cuando se ven mal las herramientas de zoom de google maps
+	img{max-width: inherit;}
+
+	#content{
+		width: 300px;
+		margin: 10px 0;
+		font-size: 1em;
+	}
+
+	h3{
+		color: $black;
+		font-size: 1.2em;
+		text-align: center;
+	}
+
+	.data{
+		margin-top: 10px;
+	}
+
+	.normal{
+		display: block;
+		margin-bottom: 10px;
+	}
+
+	.vinculo a, a:link, a:visited{
+		color: blue; 
+	}
+
+	.country{
+		font-size: 1.1em;
+		margin-bottom: 10px;
+	}
+
+	.name{
+		font-size: 1.3em;
+		margin: 0;
+		padding: 0;
+	}
+}
+
+input[type="text"]{
+		background-color: darken($white, 10px);
+		border: 1px solid darken($white, 20px);
+	}
+
+// Leyenda
+	.leyenda{
+		padding: 15px 0;
+		margin: 20px 0 0 0;
+		background-color: lighten($black, 10%);
+		@include border-radius-top(5px);
+		.btn-type-store{
+			display: inline-block;
+			margin: 0 7px 0 15px;
+		}
+	}
+
+// Contact
+
+#contact{
+	address{
+		font-size: rem-calc(12);
+		color: darken($white, 20%);
+	}
+}
+
+.text-contact{
+	color: darken($white, 20px);
+}
+
+.information{
+	margin-bottom: 10px;
+	hr{
+		margin-bottom: 10px;
+	}
+}
+
+.info{
+	font-size: rem-calc(13);
+}
+
+.css-form{
+	margin-top: 30px;
+	font-size: rem-calc(12);
+	.info{
+		margin: 2px;
+		color: darken($white, 30px);
+	}
+	label{
+		font-size: rem-calc(13);
+		color: darken($white, 30%);
+	}
+	.required label{
+		color: darken($white, 10%);
+	}
+	input, textarea, select, option{
+		background-color: lighten($black, 5%);
+ 		border: 1px solid lighten($black, 10%);
+		color: darken($white, 5%);
+	}
+	.required{
+		input, textarea, select, option{
+			background-color: lighten($black, 12%);
+ 			border: 1px solid lighten($black, 25%);
+			color: darken($white, 10%);
+		}	
+	} 
+	input:hover, input:active, input:focus{
+		background-color: lighten($black, 15%);
+	}
+	a{
+		margin: 15px 0 30px 0;
+	}
+	hr{
+		margin-bottom: 20px;
+	}
+	input.ng-invalid.ng-dirty, textarea.ng-invalid.ng-dirty {
+	border: 1px solid $red;
+	}
+
+	input.ng-valid.ng-dirty, textarea.ng-valid.ng-dirty {
+	    border: 1px solid $green;
+	}
+}
+
+.email-contact{
+	margin: 0;
+	padding: 0;
+	h6{
+		text-align: center;
+		margin: 0;
+	}
+}
+
+// Share Modal
+
+#share-modal{
+
+	border: 1px solid lighten($black, 12%);
+	background-color: lighten($black, 5%);
+
+	.share-item{
+		margin: 10px 5px;
+	}
+	h6{
+		font-size: rem-calc(13);
+		display: block;
+		margin-bottom: 5px;
+	}
+	h5{
+		font-size: rem-calc(15);
+	}
+}
+
+#send-friend-btn{
+	max-width: 400px;
+}
+
+/************* Editorial *************/
+
+#editorial{
+
+	padding-bottom: 0;
+
+	select{
+		margin-top: 10px;
+	}
+
+	ul{
+		margin: 20px 10px 0 10px;
+		li{
+			background-color: lighten($black, 5%);
+			margin: 10px 10px;
+			text-align: center;
+			display: inline-block;
+			time{
+				display: block;
+			}
+			img{
+				width: 150px;
+				height: 98px;
+			}
+		}
+	}
+
+	.sub-nav{
+		margin: 10px 0 0 10px;
+	}
+}
+
+.countries{
+	label{
+		color: darken($white, 25%);
+		display: inline-block;
+		margin-right: 20px;
+	}
+	select{
+		width: 150px;
+		display: inline-block;
+	}
+}
+
+.filter-box{
+	margin-right: 40px;
+	padding-top: 5px;
+	background-color: lighten($black, 5%);
+}
+
+.foot-box{
+	h6{
+		margin: 0;
+		padding: 0;
+	}
+}
+
+// showview
+
+.showview-bar{
+	background-color: lighten($black, 7%);
+}
+
+/************* Social Btns ***********/
+
+.social-btns{
+	position: absolute;
+	text-align: center;
+	width: 100%;
+	height: 100%;
+	padding-top: 25%;
+	opacity: 0;
+	i{
+		color: $white;
+		font-size: rem-calc(65);
+		margin-right: 20px;
+		padding: 0 15px;
+		opacity: 0.9;
+	}
+	i:hover{
+		opacity: 1;
+	}
+	.fi-social-twitter:hover{
+		color: #4099FF;
+	}
+	.fi-social-facebook:hover{
+		color: #3b5998;
+	}
+	.fi-social-pinterest:hover{
+		color: #C92228;
+	}
+}
+
+.social-background{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background-color: $black;
+	opacity: 0;
+}
+
+/************* Press Room *************/
+
+.main-press-room-contact{
+	h3{
+		font-size: rem-calc(18);
+		margin-left: -10px;
+		padding: 0;
+	}
+	h5{
+		font-size: rem-calc(14);
+		text-align: right;
+		padding: 5px 0 0 0;
+	}
+	@include background-color;
+	@include border-radius-top(5px);
+}
+
+.main-press-room{
+	h3{
+		font-size: rem-calc(18);
+		margin: 10px 0 20px 0;
+		text-align: center;
+	}
+	h5{
+		font-size: rem-calc(14);
+	}
+	h6{
+		font-size: rem-calc(14);
+		text-align: right;
+		margin-right: 10px;
+	}
+	@include background-color;
+	@include border-radius-top(5px);
+}
+
+h3.press-title{
+	margin-left: 10px;
+	text-align: center;
+}
+
+.press-section{
+	padding: 0px;
+	vertical-align: bottom;
+	height: 217px;
+	margin-top: 30px;
+	border-bottom: 1px solid rgba(255,255,255,.5);
+	text-align: right;
+	h3{
+		position: absolute;
+		width: 100%;
+		top: 100%;
+		height: 50px;
+		margin: 0;
+		margin-top: -49px;
+		padding-top: 12px;
+		padding-right: 20px;
+		background-color: rgba(10,10,10,.8);
+		vertical-align: text-bottom;
+	}
+}
+
+.ad-visual{
+	background-image: url("../images/press/adVisual.jpg");
+}
+
+.press-release{
+	background-image: url("../images/press/pressRelease.jpg");
+}
+
+.press-release-news{
+	background-image: url("../images/press/pressReleaseNews.jpg");
+}
+
+.press-release-section{
+	text-align: center;
+	border-top: 1px solid rgba(255,255,255,.1);
+	background: $grey;
+	h5{
+		padding: 10px 0px;
+	}
+}
+
+.email-press{
+	text-align: center;
+	padding: 25px 0px 15px 0px;
+	@include border-radius-bottom(5px);
+	h6{
+		font-size: 0.9em;
+	}
+}
+
+.ad-content{
+	padding: 30px 10px;
+	border-bottom: 1px solid rgba(255,255,255,.1);
+	h4{
+		margin-top: 10px;
+	}
+	ul{
+		font-size: 0.9em;
+	}
+}
+
+.ad-list{
+	color: rgba(255,255,255,.5);
+}
+
+// Press Release
+
+.press-item{
+	padding: 20px 0px;
+	border-bottom: 1px solid $grey;
+}
+
+.textos{
+	padding-top: 10px;
+	p{
+		margin-top: 30px;
+	}
+}
+
+.item-download{
+	display: inline-block;
+	text-align: center;
+	padding: 5px 5px;
+	a{
+		font-size: rem-calc(12);
+	}
+	img{
+		margin-bottom: 10px;
+	}
+}
+
+.vitrail-content{
+	background-image:url('images/collections/promess/vitrail/green.gif');
+	background-color:#000;
+}
+
+// animate
+
+.animate-enter, .animate-leave {
+	transition: 500ms ease-in all;
+	position: relative;
+	display: block;
+} 
+.animate-enter.animate-enter-active, .animate-leave {
+	left: 0;
+}
+.animate-leave.animate-leave-active, .animate-enter {
+	left: 500px;
+}

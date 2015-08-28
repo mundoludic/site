@@ -1,0 +1,111 @@
+
+/*********************
+GENERAL
+*********************/
+
+@mixin rounded-box{
+
+	$radius: 5px;
+
+	border-radius: $radius;
+	-moz-border-radius: $radius;
+	-webkit-border-radius: $radius;
+}
+
+@mixin background-color{
+	background-color: $black;
+	background-color: rgba($black, $opacity-background);
+}
+
+@mixin box-white-shadow{
+	-moz-box-shadow: 0px 7px 20px darken($white, 10%);
+	-webkit-box-shadow: 0px 7px 20px darken($white, 10%);
+	box-shadow: 0px 7px 20px darken($white, 10%);
+}
+
+@mixin box-black-shadow{
+	-webkit-box-shadow: inset 10px -70px 12px -70px darken($black, 10%);
+	-moz-box-shadow: inset 10px -70px 12px -70px darken($black, 10%);
+	box-shadow: inset 10px -70px 12px -70px darken($black, 10%);
+}
+
+/*********************
+TRANSITION
+*********************/
+
+@mixin transition($transition...) {
+	// defining prefixes so we can use them in mixins below
+	$prefixes:      ("-webkit", "-ms", "-o",  "");
+  @each $prefix in $prefixes {
+    #{$prefix}-transition: $transition;
+  }
+
+  transition: $transition;
+}
+
+/*********************
+BORDER RADIUS
+*********************/
+
+@mixin simple-border-radius($radius) {
+  -webkit-border-radius: $radius;
+     -moz-border-radius: $radius;
+      -ms-border-radius: $radius;
+       -o-border-radius: $radius;
+          border-radius: $radius;
+}
+
+@mixin border-radius($radius){
+	-moz-border-radius: $radius;
+	-webkit-border-radius: $radius;
+	border-radius: $radius;
+}
+
+@mixin border-radius-top($radius){
+	-webkit-border-top-left-radius: $radius;
+	-webkit-border-top-right-radius: $radius;
+	-moz-border-radius-topleft: $radius;
+	-moz-border-radius-topright: $radius;
+	border-top-left-radius: $radius;
+	border-top-right-radius: $radius;
+}
+
+@mixin border-radius-bottom($radius){
+	-webkit-border-bottom-right-radius: $radius;
+	-webkit-border-bottom-left-radius: $radius;
+	-moz-border-radius-bottomright: $radius;
+	-moz-border-radius-bottomleft: $radius;
+	border-bottom-right-radius: $radius;
+	border-bottom-left-radius: $radius;
+}
+
+/*********************
+ROTATION
+*********************/
+
+@mixin rotate($deg){
+	-webkit-transform: rotate($deg);
+	   -moz-transform: rotate($deg);
+	    -ms-transform: rotate($deg);
+	     -o-transform: rotate($deg);
+	        transform: rotate($deg);
+}
+
+/*********************
+BOX SHADOW
+*********************/
+
+@mixin simple-box-shadow($color) {
+  -webkit-box-shadow: 1px 2px 5px $color;
+     -moz-box-shadow: 1px 2px 5px $color;
+      -ms-box-shadow: 1px 2px 5px $color;
+       -o-box-shadow: 1px 2px 5px $color;
+          box-shadow: 1px 2px 5px $color;
+}
+
+@mixin box-shadow($hor, $vert, $blur, $color){
+	-webkit-box-shadow: $hor $vert $blur $color;
+    -moz-box-shadow: $hor $vert $blur $color;
+    -o-box-shadow: $hor $vert $blur $color;
+    box-shadow: $hor $vert $blur $color;
+}

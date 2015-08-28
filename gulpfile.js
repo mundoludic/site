@@ -13,7 +13,8 @@ var env = process.env.NODE_ENV || 'development';
 var outputDir = 'builds/development';
 
 gulp.task('js-libraries',function(){
-    return gulp.src(['node_modules/jquery/dist/jquery.js',
+    return gulp.src(['node_modules/modernizr/modernizr.js',
+                    'node_modules/jquery/dist/jquery.js',
                     'node_modules/angular/angular.js',
                     'node_modules/angular-resource/angular-resource.js',
                     'node_modules/angular-cookies/angular-cookies.js',
@@ -26,7 +27,20 @@ gulp.task('js-libraries',function(){
 });
 
 gulp.task('js', function(){
-	return gulp.src(['src/js/main.js',])
+	return gulp.src(['src/js/app.js',
+                    'src/js/controllers/main.js',
+                    'src/js/controllers/collections.js',
+                    'src/js/controllers/press.js',
+                    'src/js/services/Contact.js',
+                    'src/js/services/Press.js',
+                    'src/js/services/Home.js',
+                    'src/js/services/Collections.js',
+                    'src/js/services/Watches.js',
+                    'src/js/filters/press-filters.js',
+                    'src/js/filters/main-filters.js',
+                    'src/js/directives/directives.js',
+                    'src/js/directives/social-media.js'])
+        .pipe(concat('main.js'))
 		.pipe(browserify({ debug: env === 'development' }))
 		.pipe(gulpif(env === 'production', uglify()))
 		.pipe(gulp.dest(outputDir + '/js'))

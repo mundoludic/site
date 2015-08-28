@@ -1,0 +1,49 @@
+
+<div class="row modal-head">
+	<div class="small-12 columns text-right">
+		<a href="" ng-click="onX()">X</a>
+	</div>
+</div>
+
+<div class="showview-content">
+
+	<div class="row">
+		<div class="small-12 columns text-center">
+			<h3>{{clipCaption}}</h3>
+			<h3>hola{{clip}}</h3>
+
+			<div class="row">
+				<div class="small-12 columns">
+					<img src="http://delacour.ch/press/editorial/{{clipYear}}/{{clipImage}}">
+				</div>
+			</div>
+			<div class="row">
+				<div class="small-12 columns">
+					<a href="{{clipLink}}">{{clipLink}}</a>
+				</div>
+			</div>
+
+		</div>
+	</div>
+
+</div>
+
+<!-- NAV -->
+<a href="" ng-click="onClip(clip-1)"><div class="nav-showview prev"><img src="images/icons/prev.png" alt="prev" title="previous" /></div></a>
+<a href="" ng-click="onClip(clip+1)"><div class="nav-showview next"><img src="images/icons/next.png" alt="next" title="next" /></div></a>
+
+<!-- BARRA DE CLIPPINGS -->
+<div class="modal-foot">
+	<div class="showview-bar">
+		<ul>
+			<li ng-repeat="clipping in editorial | orderBy:'-year' | orderBy:'country'">
+				<a href="" ng-click="onClip(clipping.id)">
+					<h5>{{clipping.country | uppercase}}</h5>
+					<time>{{clipping.date}}</time>
+					<img src="http://delacour.ch/press/editorial/{{clipping.year}}/thumbs/thumbs_{{clipping.image}}" data-caption="{{clipping.caption}}">
+				</a>
+			</li>
+		</ul>
+	</div>
+</div>
+<!-- Fin Ventana Modal de los clippings -->

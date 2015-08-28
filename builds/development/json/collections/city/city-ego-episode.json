@@ -1,0 +1,17 @@
+[
+	{
+		"title":"City Episode",
+		"image":"cityEpisode.jpg",
+		"active":"1"
+	},
+	{
+		"title":"City Episode W",
+		"image":"cityEpisodeW.jpg",
+		"active":"1"
+	},
+	{
+		"title":"City Episode W - Pink",
+		"image":"cityEpisodeWPink.jpg",
+		"active":"1"
+	}
+]

@@ -1,0 +1,17 @@
+[
+	{
+		"title":"City Caractère",
+		"image":"cityCaractere.jpg",
+		"active":"1"
+	},
+	{
+		"title":"City Caractère Diamond",
+		"image":"cityCaractereDia.jpg",
+		"active":"1"
+	},
+	{
+		"title":"City Caractère Black Diamond",
+		"image":"cityCaractereBlackDia.jpg",
+		"active":"1"
+	}
+]

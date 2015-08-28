@@ -1,0 +1,64 @@
+<div class="row">
+	
+	<div class="small-12 columns all-collection">
+
+		<div class="small-6 columns menu-all">
+			<div class="menu-all-box">
+				<a href="collection/catalogue/all">Show all collection</a> | <a href="catalogues/master-catalogue/2015/150407-Catalogue_2015.pdf" target="_blank">Print full Catalogue</a>
+			</div>
+		</div>
+		<div class="small-6 columns special-timepieces-menu">
+			<a href="collection/catalogue/specialtimepieces"><img src="images/collections/menu/skull.png"><h3>SPECIAL TIMEPIECES</h3></a>
+		</div>
+		
+	</div>
+
+</div>
+
+<div class="watch-menu-content">
+
+		<h5>REGULAR COLLECTION</h5>
+
+		<ul class="watch-menu">
+			<li ng-repeat="family in families">
+				<a href="collection/catalogue/{{family}}"><img src="images/collections/menu/{{family}}.png"></a>
+				<h3>{{family | uppercase}}</h3>
+			</li>
+		</ul>
+
+		<ul class="watch-menu-devices watch-menu-detail">
+			<li ng-repeat="family in families">
+				<a href="collection/catalogue/{{family}}"><h3>{{family  | uppercase}}</h3></a>
+			</li>
+		</ul>
+
+</div>
+
+<div class="row dlc-collection">
+
+	<div class="small-12 columns">
+
+		<ul class="watch-content text-center table"> 
+				<li ng-animate="'animate'" ng-repeat="watch in watches | selectWatches:family" class="watch animate" ng-mouseenter="hover(watch)" ng-mouseleave="hover(watch)">
+					<a href="collection/catalogue/{{family}}/{{watch.ref}}" title="{{watch.collectionName}}" alt="{{watch.collectionName}}">
+						<div class="new" ng-show="{{watch.new}}">NEW</div>
+						<img ng-src="images/collections/watches/small/{{watch.ref}}.jpg">
+						<h5>{{watch.collectionName}}</h5>
+						<h6>{{watch.ref}}</h6>
+
+						<!-- Detail Watch -->
+						<div ng-show="watch.showWatchOver" class="watch-over">
+							<h4>{{watch.collectionName}}</h4>
+							<div class="new" ng-show="{{watch.new}}">NEW</div>
+							<img ng-src="images/collections/watches/small/{{watch.ref}}.jpg">
+							<h5>{{watch.description}}</h5>
+							<h6>{{watch.ref}}</h6>
+						</div>
+						<!-- Fin Deatil Watch -->
+					</a>
+				</li>
+		</ul>
+
+	</div>
+
+</div>

@@ -1,0 +1,1356 @@
+{
+    "type": "FeatureCollection",
+    "features": [{
+        "type": "store",
+        "properties": {
+            "area": "3",
+            "country": "Singapore",
+            "state": "",
+            "city": "Singapore",
+            "zipcode": "608927",
+            "name": "deLaCour Asia Pacific",
+            "address": "Main Office - 30 Teban Gardens Crescent",
+            "phone": "+65 6567 5252",
+            "fax": "",
+            "website": "",
+            "email": "enquiry@delacour.com.sg",
+            "enabled": "1"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [103.738357, 1.326395]
+        }
+    }, {
+        "type": "store",
+        "properties": {
+            "area": "3",
+            "country": "日本国 | JAPAN",
+            "state": "",
+            "city": "東京 | Tokyo",
+            "zipcode": "",
+            "name": "西武PISA時計・宝飾サロン | SEIBU, PISA",
+            "address": "港区芝公園4-8-1 ザ・プリンス・パークタワー東京 1F | 1F, Tokyo Prince Hotel Parktower, 4-8-1, Shibakoen - Minato-ku",
+            "phone": "03-5400-0717 | +81 3 5400 0717",
+            "fax": "",
+            "website": "",
+            "email": "",
+            "enabled": "1"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [139.745445, 35.658573]
+        }
+    }, {
+        "type": "store",
+        "properties": {
+            "area": "4",
+            "country": "COLOMBIA",
+            "state": "",
+            "city": "Cali",
+            "zipcode": "",
+            "name": "Radri Adriana Alzate",
+            "address": "Centro Comercial Jardin Plaza Local 182",
+            "phone": "+57 324 7016",
+            "fax": "",
+            "website": "",
+            "email": "",
+            "enabled": "1"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-76.52806, 3.37073]
+        }
+    }, {
+        "type": "store",
+        "properties": {
+            "area": "5",
+            "country": "BAHRAIN",
+            "state": "",
+            "city": "Manama",
+            "zipcode": "",
+            "name": "Asia Jewellers",
+            "address": "Seef Mall",
+            "phone": "+973 175 87 888",
+            "fax": "",
+            "website": "",
+            "email": "",
+            "enabled": "1"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [50.53429, 26.23243]
+        }
+    }, {
+        "type": "store",
+        "properties": {
+            "area": "5",
+            "country": "BAHRAIN",
+            "state": "",
+            "city": "Manama",
+            "zipcode": "",
+            "name": "Asia Jewellers",
+            "address": "Sheraton Mall",
+            "phone": "+973 175 87 888",
+            "fax": "",
+            "website": "",
+            "email": "",
+            "enabled": "1"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [50.583446, 26.239373]
+        }
+    }, {
+        "type": "store",
+        "properties": {
+            "area": "2",
+            "country": "ARMENIA",
+            "state": "",
+            "city": "Yerevan",
+            "zipcode": "375010",
+            "name": "G.R.N. Louvre LLC",
+            "address": "20 Abovian Str.",
+            "phone": "+374 10 58 62 66",
+            "fax": "",
+            "website": "",
+            "email": "",
+            "enabled": "1"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [40.185976, 44.515057]
+        }
+    }, {
+        "type": "store",
+        "properties": {
+            "area": "2",
+            "country": "UKRAINE",
+            "state": "",
+            "city": "Kiev",
+            "zipcode": "",
+            "name": "BASEL Swiss Boutique",
+            "address": "Krasnoarmeyskaya str. 114",
+            "phone": "+38 044 528 33 85",
+            "fax": "+38 044 529 22 67",
+            "website": "",
+            "email": "",
+            "enabled": "0"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [30.51978, 50.4223]
+        }
+    },
+ {
+        "type": "store",
+        "properties": {
+            "area": "2",
+            "country": "UKRAINE",
+            "state": "",
+            "city": "Kiev",
+            "zipcode": "",
+            "name": "NOBLESSE. WATCHES & JEWELLERY",
+            "address": "9a Mekhanizatorov str. - Kyiv  03110",
+            "phone": "+380 44 237 73 31",
+            "fax": "",
+            "website": "",
+            "email": "",
+            "enabled": "1"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [30.315762, 50.198942]
+        }
+    },
+     {
+        "type": "store",
+        "properties": {
+            "area": "5",
+            "country": "OMAN",
+            "state": "",
+            "city": "Muscat",
+            "zipcode": "",
+            "name": "Gallery Argan",
+            "address": "Qurum shopping area - Sohar Building",
+            "phone": "+968 24563627",
+            "fax": "",
+            "website": "",
+            "email": "",
+            "enabled": "1"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [58.490043, 23.607762]
+        }
+    }, {
+        "type": "store",
+        "properties": {
+            "area": "4",
+            "country": "MEXICO",
+            "state": "",
+            "city": "Ciudad de Mexico",
+            "zipcode": "",
+            "name": "Berger Joyeros",
+            "address": "Presidente Masaryk No.438, Polanco",
+            "phone": "+52 55 5281 4122 / +52 55 5281 4511",
+            "fax": "+52 55 5281 5803",
+            "website": "http://www.berger.com.mx",
+            "email": "<a href=\"info@bj.com.mx\">info@bj.com.mx</a>",
+            "enabled": "1"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-99.200523, 19.431985]
+        }
+    }, {
+        "type": "corner",
+        "properties": {
+            "area": "5",
+            "country": "SAUDI ARABIA",
+            "state": "",
+            "city": "Riyadh",
+            "zipcode": "",
+            "name": "Alfardan KSA",
+            "address": "Olaya Main Street",
+            "phone": "+966 1 462 11 62 / +966 1 461 35 55",
+            "fax": "",
+            "website": "http://www.alfardan.com",
+            "email": "info@alfardan.com",
+            "enabled": "1"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [46.681225, 24.69631]
+        }
+    }, {
+        "type": "store",
+        "properties": {
+            "area": "5",
+            "country": "SAUDI ARABIA",
+            "state": "",
+            "city": "Jeddah",
+            "zipcode": "",
+            "name": "Alfardan KSA",
+            "address": "",
+            "phone": "+966 2 664 0073",
+            "fax": "",
+            "website": "http://www.alfardan.com",
+            "email": "info@alfardan.com",
+            "enabled": "1"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [39.15726, 21.63416]
+        }
+    }, {
+        "type": "store",
+        "properties": {
+            "area": "5",
+            "country": "SAUDI ARABIA",
+            "state": "",
+            "city": "Alkhobar",
+            "zipcode": "",
+            "name": "Alfardan KSA",
+            "address": "",
+            "phone": "+966 3 898 00 06",
+            "fax": "",
+            "website": "http://www.alfardan.com",
+            "email": "info@alfardan.com",
+            "enabled": "1"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [50.204666, 26.282334]
+        }
+    }, {
+        "type": "store",
+        "properties": {
+            "area": "2",
+            "country": "SPAIN",
+            "state": "",
+            "city": "Alicante",
+            "zipcode": "",
+            "name": "Massimo Bianco",
+            "address": "Calle del Teatro, 38",
+            "phone": "+34 965218436",
+            "fax": "",
+            "website": "http://www.massimobianco.com",
+            "email": "massimobianco@hotmail.com",
+            "enabled": "1"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-0.487944, 38.345267]
+        }
+    }, {
+        "type": "store",
+        "properties": {
+            "area": "5",
+            "country": "UNITED ARAB EMIRATES",
+            "state": "",
+            "city": "Dubai",
+            "zipcode": "",
+            "name": "Bin Hendi Jewellery",
+            "address": "Mall of the Emirates – 1st Floor",
+            "phone": "+971 341 07 11",
+            "fax": "",
+            "website": "",
+            "email": "bhj.moe@binhendi.ae",
+            "enabled": "0"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [55.20002, 25.1199]
+        }
+    }, {
+        "type": "corner",
+        "properties": {
+            "area": "5",
+            "country": "UNITED ARAB EMIRATES",
+            "state": "",
+            "city": "Dubai",
+            "zipcode": "",
+            "name": "Bin Hendi Jewellery",
+            "address": "Dubai Mall – Ground floor",
+            "phone": "+971 4 4341421",
+            "fax": "",
+            "website": "",
+            "email": "bhj.dmall@binhendi.ae",
+            "enabled": "0"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [55.27941, 25.19919]
+        }
+    },
+    {
+        "type": "corner",
+        "properties": {
+            "area": "5",
+            "country": "UNITED ARAB EMIRATES",
+            "state": "",
+            "city": "Dubai",
+            "zipcode": "",
+            "name": "Casal&Co.",
+            "address": "The Adress Hotel Dubai Mall",
+            "phone": "",
+            "fax": "",
+            "website": "",
+            "email": "",
+            "enabled": "1"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [55.279242, 25.194250]
+        }
+    }, {
+        "type": "corner",
+        "properties": {
+            "area": "5",
+            "country": "QATAR",
+            "state": "",
+            "city": "Doha",
+            "zipcode": "",
+            "name": "Alfardan",
+            "address": "Alfardan Centre",
+            "phone": "+974 4408 408",
+            "fax": "",
+            "website": "",
+            "email": "njahshan@alfardan.com.qa",
+            "enabled": "1"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [51.53494, 25.28569]
+        }
+    }, 
+    {
+        "type": "store",
+        "properties": {
+            "area": "2",
+            "country": "ITALY",
+            "state": "",
+            "city": "Venezia",
+            "zipcode": "75008",
+            "name": "Tokatzian",
+            "address": "Piazza San Marco 16",
+            "phone": "",
+            "fax": "",
+            "website": "",
+            "email": "info@tokatzian.com",
+            "enabled": "1"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [12.338893, 45.434837]
+        }
+    },
+    {
+        "type": "store",
+        "properties": {
+            "area": "2",
+            "country": "FRANCE",
+            "state": "",
+            "city": "Paris",
+            "zipcode": "75008",
+            "name": "Kronometry1999",
+            "address": "60, rue François 1er",
+            "phone": "+33 (0)1 42 25 15 41",
+            "fax": "+33 (0)1 42 25 23 35",
+            "website": "",
+            "email": "paris@Kronometry1999.com",
+            "enabled": "1"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [2.301976, 48.869712]
+        }
+    }, {
+        "type": "store",
+        "properties": {
+            "area": "2",
+            "country": "FRANCE",
+            "state": "",
+            "city": "Cannes",
+            "zipcode": "06400",
+            "name": "Kronometry1999",
+            "address": "4, La Croisette",
+            "phone": "+33 (0)4 97 06 69 70",
+            "fax": "+33 (0)4 97 06 69 71",
+            "website": "",
+            "email": "info@kronometry1999.com",
+            "enabled": "1"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [7.018507, 43.55121]
+        }
+    }, {
+        "type": "store",
+        "properties": {
+            "area": "2",
+            "country": "FRANCE",
+            "state": "",
+            "city": "Saint Tropez",
+            "zipcode": "83990",
+            "name": "Kronometry1999",
+            "address": "Le Grand Passage - 3, Rue Allard",
+            "phone": "+33 (0)4 98 12 62 50 ",
+            "fax": "+33 (0)4 98 12 62 51",
+            "website": "",
+            "email": "St-trop@kronometry1999.com",
+            "enabled": "1"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [6.63884, 43.27112]
+        }
+    }, {
+        "type": "store",
+        "properties": {
+            "area": "2",
+            "country": "FRANCE",
+            "state": "",
+            "city": "Lyon",
+            "zipcode": "69002",
+            "name": "Kronometry1999",
+            "address": "27 Rue Gasparin",
+            "phone": "+33 (0)4 78 37 31 92",
+            "fax": "+33 (0)4 78 37 44 48",
+            "website": "",
+            "email": "lyon@kronometry1999.com",
+            "enabled": "1"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [4.833183, 45.758438]
+        }
+    }, {
+        "type": "store",
+        "properties": {
+            "area": "2",
+            "country": "MONACO",
+            "state": "",
+            "city": "Monaco",
+            "zipcode": "",
+            "name": "Kronometry 1999",
+            "address": "13, Bd des Moulins, Immeuble Regina",
+            "phone": "+377 97 70 44 22",
+            "fax": "+377 97 70 40 33",
+            "website": "",
+            "email": "monaco@kronometry1999.com",
+            "enabled": "1"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [7.427325, 43.742127]
+        }
+    }, {
+        "type": "store",
+        "properties": {
+            "area": "2",
+            "country": "UNITED KINGDOM",
+            "state": "",
+            "city": "London",
+            "zipcode": "",
+            "name": "Frost of London",
+            "address": "108 New Bond Street, London, W1S 1EF",
+            "phone": "+44 020 3372 0108",
+            "fax": "",
+            "website": "",
+            "email": "info@frostoflondon.co.uk",
+            "enabled": "1"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-0.145595, 51.513393]
+        }
+    }, {
+        "type": "store",
+        "properties": {
+            "area": "5",
+            "country": "UNITED ARAB EMIRATES",
+            "state": "",
+            "city": "Abu Dhabi",
+            "zipcode": "",
+            "name": "Al Jaber",
+            "address": "PO BOX 5730",
+            "phone": "+971 2-6340040",
+            "fax": "",
+            "website": "",
+            "email": "jaberjew@emirates.net.ae",
+            "enabled": "1"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [54.41987, 24.0988]
+        }
+    }, {
+        "type": "store",
+        "properties": {
+            "area": "2",
+            "country": "PORTUGAL",
+            "state": "",
+            "city": "Lisbon",
+            "zipcode": "1050-025",
+            "name": "Manuel Dos Santos",
+            "address": "Galerias Saldanha Residence - Loja 1.32",
+            "phone": "+35 1 213 520 557 / +35 1 934 800 115",
+            "fax": "",
+            "website": "",
+            "email": "",
+            "enabled": "1"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-9.1458, 38.731841]
+        }
+    }, {
+        "type": "store",
+        "properties": {
+            "area": "3",
+            "country": "中國 | CHINA",
+            "state": "",
+            "city": "邮编 | Beijing",
+            "zipcode": "1000025",
+            "name": "Sparkle Roll Luxury World",
+            "address": "中国北京朝阳区建国路 89 号耀莱新天地 18 号楼 L02 | G/F, L02, Building 18, 89 Jianguao Road, Chaoyang District",
+            "phone": "",
+            "fax": "",
+            "website": "",
+            "email": "georgezuo@hk970.com",
+            "enabled": "1"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [116.439595, 39.904617]
+        }
+    }, {
+        "type": "store",
+        "properties": {
+            "area": "3",
+            "country": "日本国 | JAPAN",
+            "state": "",
+            "city": "東京 | Tokyo",
+            "zipcode": "",
+            "name": "西武渋谷店 | SEIBU, Shibuya",
+            "address": "渋谷区宇田川町21-1 | 21-1, Udagawa-cho - Shibuya-ku",
+            "phone": "03-3462-3387 | +81 3 3462 3387",
+            "fax": "",
+            "website": "",
+            "email": "",
+            "enabled": "1"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [139.700301, 35.660278]
+        }
+    }, {
+        "type": "store",
+        "properties": {
+            "area": "2",
+            "country": "RUSSIA",
+            "state": "",
+            "city": "Moscow",
+            "zipcode": "121069",
+            "name": "Raff House",
+            "address": "Malaya Nikitskaya str, 25",
+            "phone": "+7 495 726 55 45",
+            "fax": "",
+            "website": "",
+            "email": "",
+            "enabled": "1"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [37.61502, 55.75697]
+        }
+    }, {
+        "type": "store",
+        "properties": {
+            "area": "3",
+            "country": "INDIA",
+            "state": "",
+            "city": "Mumbai",
+            "zipcode": "400050",
+            "name": "Time Avenue",
+            "address": "189 Turner Road, Bandra (W)",
+            "phone": "0022 2651 5757",
+            "fax": "",
+            "website": "",
+            "email": "",
+            "enabled": "1"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [72.82958, 19.05933]
+        }
+    }, {
+        "type": "store",
+        "properties": {
+            "area": "2",
+            "country": "SPAIN",
+            "state": "",
+            "city": "Barcelona",
+            "zipcode": "",
+            "name": "Rabat Barcelona",
+            "address": "Passeig de Gràcia, 99",
+            "phone": "+34 93 384 41 11",
+            "fax": "",
+            "website": "http://www.rabat.net",
+            "email": "rabat@rabat.net",
+            "enabled": "1"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [2.160435, 41.39555]
+        }
+    }, {
+        "type": "store",
+        "properties": {
+            "area": "3",
+            "country": "日本国 | JAPAN",
+            "state": "",
+            "city": "東京 | Tokyo",
+            "zipcode": "",
+            "name": "ヨシダ | YOSHIDA",
+            "address": "渋谷区幡ヶ谷2-13-5 | 2-13-5, Hatagaya, Shibuya-ku",
+            "phone": "03-3377-5401 | +81 3 3377 5401",
+            "fax": "",
+            "website": "",
+            "email": "",
+            "enabled": "1"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [139.676612, 35.677518]
+        }
+    }, {
+        "type": "store",
+        "properties": {
+            "area": "2",
+            "country": "SPAIN",
+            "state": "",
+            "city": "Valencia",
+            "zipcode": "",
+            "name": "Rabat",
+            "address": "Av. Colón, 41",
+            "phone": "+34 963 527 678",
+            "fax": "",
+            "website": "http://www.rabat.net",
+            "email": "rabat@rabat.net",
+            "enabled": "1"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-0.654057, 38.092077]
+        }
+    }, {
+        "type": "store",
+        "properties": {
+            "area": "2",
+            "country": "SPAIN",
+            "state": "",
+            "city": "Madrid",
+            "zipcode": "",
+            "name": "Rabat",
+            "address": "Serrano, 32",
+            "phone": "+34 91 431 93 33",
+            "fax": "",
+            "website": "http://www.rabat.net",
+            "email": "rabat@rabat.net",
+            "enabled": "1"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-3.647351, 40.429679]
+        }
+    }, {
+        "type": "store",
+        "properties": {
+            "area": "2",
+            "country": "SPAIN",
+            "state": "",
+            "city": "Barcelona",
+            "zipcode": "",
+            "name": "Rabat Flash",
+            "address": "Passeig de Gràcia, 59",
+            "phone": "+34 932 722 423",
+            "fax": "",
+            "website": "http://www.rabat.net",
+            "email": "rabat@rabat.net",
+            "enabled": "1"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [2.163742, 41.392898]
+        }
+    }, {
+        "type": "store",
+        "properties": {
+            "area": "2",
+            "country": "BULGARIA | България",
+            "state": "",
+            "city": "София | Sofia",
+            "zipcode": "1000",
+            "name": "E & S Watches and Jewellery Ltd",
+            "address": "Пл. „Народно събрание” 12 | 12 Narodno Sabranie Sq.",
+            "phone": "+35 929817770",
+            "fax": "",
+            "website": "",
+            "email": "info@eandswi.bg",
+            "enabled": "1"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [23.332941, 42.693295]
+        }
+    }, {
+        "type": "store",
+        "properties": {
+            "area": "2",
+            "country": "SPAIN",
+            "state": "",
+            "city": "Madrid",
+            "zipcode": "",
+            "name": "Chocron Joyeros",
+            "address": "Príncipe de Vergara, 22 - Madrid 28001",
+            "phone": "+34 91 781 02 25",
+            "fax": "",
+            "website": "http://www.chocronjoyeros.com",
+            "email": "info@chocronjoyeros.com",
+            "enabled": "1"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-3.680158, 40.42529]
+        }
+    }, {
+        "type": "boutique",
+        "properties": {
+            "area": "2",
+            "country": "SWITZERLAND",
+            "state": "",
+            "city": "Genève",
+            "zipcode": "Fabri 1201",
+            "name": "Boutique deLaCour",
+            "address": "6, rue Adhémar",
+            "phone": "+41 22 731 72 80",
+            "fax": "",
+            "website": "http://delacour.ch",
+            "email": "info@delacour.ch",
+            "enabled": "1"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [6.149149, 46.208889]
+        }
+    },
+    {
+        "type": "store",
+        "properties": {
+            "area": "2",
+            "country": "SWITZERLAND",
+            "state": "",
+            "city": "Zurich",
+            "zipcode": "8001",
+            "name": "Vainard Fine Jewellery",
+            "address": "Schlüsselgasse 4",
+            "phone": "+41 44 210 04 44",
+            "fax": "",
+            "website": "www.vainard.ch",
+            "email": "contact@vainard.ch",
+            "enabled": "1"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [6.149149, 46.208889]
+        }
+    },
+     {
+        "type": "store",
+        "properties": {
+            "area": "1",
+            "country": "NIGERIA",
+            "state": "",
+            "city": "Lagos",
+            "zipcode": "P.M.P. 80070",
+            "name": "POLO Towers",
+            "address": "Plot 166, Ozumba Mbadiwe - Victoria Island",
+            "phone": "",
+            "fax": "",
+            "website": "",
+            "email": "info@pololuxury.com",
+            "enabled": "1"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [3.417045, 6.436829]
+        }
+    }, {
+        "type": "store",
+        "properties": {
+            "area": "4",
+            "country": "MEXICO",
+            "state": "",
+            "city": "Monterrey",
+            "zipcode": "",
+            "name": "EMWA Monterrey",
+            "address": "Calzada del Valle 472 Ote. Col. del Valle. Garza García, N.L., CP 66220",
+            "phone": "+58 81 8335 0177",
+            "fax": "+58 81 8335 7590",
+            "website": "",
+            "email": "info@emwa.com.mx",
+            "enabled": "1"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [25.654467, -100.359882]
+        }
+    }, {
+        "type": "store",
+        "properties": {
+            "area": "2",
+            "country": "FRANCE",
+            "state": "",
+            "city": "Bordeaux",
+            "zipcode": "",
+            "name": "Kronometry1999",
+            "address": "29, cours Georges Clémenceau",
+            "phone": "+33 (0)5 56 48 21 18",
+            "fax": "",
+            "website": "",
+            "email": "bordeaux@kronometry1999.com",
+            "enabled": "1"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-0.579235, 44.843035]
+        }
+    }, {
+        "type": "store",
+        "properties": {
+            "area": "2",
+            "country": "FRANCE",
+            "state": "",
+            "city": "Courchevel",
+            "zipcode": "",
+            "name": "Kronometry1999",
+            "address": "Hôtel Le Lana – Route de Bellecôte · Courchevel 1850",
+            "phone": "+33 (0)6 03 18 00 89",
+            "fax": "",
+            "website": "",
+            "email": "courchevel@kronometry1999.com",
+            "enabled": "1"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [6.632742, 45.415528]
+        }
+    }, {
+        "type": "store",
+        "properties": {
+            "area": "2",
+            "country": "PORTUGAL",
+            "state": "",
+            "city": "Porto",
+            "zipcode": "4050-322",
+            "name": "Intemporal Jewellery",
+            "address": "Rua Julio Dinis n 926",
+            "phone": "+35 122 60 600 60 /+35 191 93 817 9",
+            "fax": "",
+            "website": "",
+            "email": "intemporal-jr@dix.pt",
+            "enabled": "1"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-8.628443, 41.156886]
+        }
+    }, {
+        "type": "store",
+        "properties": {
+            "area": "3",
+            "country": "日本国 | JAPAN",
+            "state": "",
+            "city": "東京 | Tokyo",
+            "zipcode": "",
+            "name": "The Time Gallery",
+            "address": "千代田区有楽町1-8-1 ザ・ペニンシュラ東京 ブティックフロア1F | 1F, The Pennisula Tokyo, 1-8-1, Yuraku-cho, Chiyoda-ku",
+            "phone": "03-6267-6244 | +81 3 6267 6244",
+            "fax": "",
+            "website": "",
+            "email": "",
+            "enabled": "1"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [139.760143, 35.674869]
+        }
+    }, {
+        "type": "store",
+        "properties": {
+            "area": "2",
+            "country": "GERMANY",
+            "state": "",
+            "city": "Hamburg",
+            "zipcode": "20354",
+            "name": "Juwelier im Fairmont - Hotel Vier Jahreszeiten",
+            "address": "Neuer Jungfernstieg 9-14",
+            "phone": "+49(0)40-33441524",
+            "fax": "",
+            "website": "",
+            "email": "info@juwelierfairmont.com",
+            "enabled": "1"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [9.99152, 53.5555]
+        }
+    }, {
+        "type": "store",
+        "properties": {
+            "area": "3",
+            "country": "日本国 | JAPAN",
+            "state": "",
+            "city": "大阪 | Osaka",
+            "zipcode": "",
+            "name": "高島屋大阪店 | TAKASHIMAYA, Osaka",
+            "address": "中央区難波5-1-5 | 5-1-5, Namba, Chuo-ku",
+            "phone": "06-6631-9889 | +81 6 6631 9889",
+            "fax": "",
+            "website": "",
+            "email": "",
+            "enabled": "1"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [135.501047, 34.664761]
+        }
+    }, {
+        "type": "store",
+        "properties": {
+            "area": "3",
+            "country": "日本国 | JAPAN",
+            "state": "",
+            "city": "東京 | Tokyo",
+            "zipcode": "",
+            "name": "Long Slow Distance",
+            "address": "渋谷区神宮前3-25-12 | 3-25-12, Jingu-mae, Shibuya-ku",
+            "phone": "03-6477-1311 | +81 3 6477 1311",
+            "fax": "",
+            "website": "",
+            "email": "",
+            "enabled": "1"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [139.707908, 35.671469]
+        }
+    }, {
+        "type": "store",
+        "properties": {
+            "area": "3",
+            "country": "日本国 | JAPAN",
+            "state": "",
+            "city": "高松 | Takamatsu",
+            "zipcode": "",
+            "name": "EYE EYE ISUZU",
+            "address": "多肥下町1523-1 | 1523-1, Tahishimomachi",
+            "phone": "087-864-5225 | +81 87 864 5225",
+            "fax": "",
+            "website": "",
+            "email": "",
+            "enabled": "1"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [134.059573, 34.305611]
+        }
+    }, {
+        "type": "store",
+        "properties": {
+            "area": "3",
+            "country": "日本国 | JAPAN",
+            "state": "",
+            "city": "広島 | Hiroshima",
+            "zipcode": "",
+            "name": "UNITED SALON",
+            "address": "中区立町5-7 | 5-7, Tate-machi, Naka-ku",
+            "phone": "082-346-4560 | +81 82 246 4560",
+            "fax": "",
+            "website": "",
+            "email": "",
+            "enabled": "1"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [132.461406, 34.393613]
+        }
+    }, {
+        "type": "store",
+        "properties": {
+            "area": "3",
+            "country": "日本国 | JAPAN",
+            "state": "",
+            "city": "大阪 | Osaka",
+            "zipcode": "",
+            "name": "UNITED SALON Osaka",
+            "address": "中央区南船場4-12-22 | 4-12-22, Minami-Semba, Chuo-ku",
+            "phone": "06-6243-5001 | +81 6 6243 5001",
+            "fax": "",
+            "website": "",
+            "email": "",
+            "enabled": "1"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [135.498503, 34.675906]
+        }
+    }, {
+        "type": "boutique",
+        "properties": {
+            "area": "3",
+            "country": "INDONESIA",
+            "state": "",
+            "city": "Jakarta Selatan",
+            "zipcode": "12190",
+            "name": "deLaCour Boutique",
+            "address": "Lot 14 SCBD - Bengkel Building 1st Floor | FAIRGROUNDS",
+            "phone": "+6221 33999 738",
+            "fax": "",
+            "website": "",
+            "email": "Delacour@eurobutik.co.id",
+            "enabled": "1"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [106.810536, -6.227203]
+        }
+    }, {
+        "type": "store",
+        "properties": {
+            "area": "3",
+            "country": "日本国 | JAPAN",
+            "state": "",
+            "city": "熊本 | Kumamoto",
+            "zipcode": "",
+            "name": "UNITED SALON Kumamoto",
+            "address": "中央区城東町5-50 1F | 1F, 5-50, Jotomachi, Chuo-ku",
+            "phone": "096-352-9000 | +81 96 352 9000",
+            "fax": "",
+            "website": "",
+            "email": "",
+            "enabled": "1"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [130.710749, 32.806024]
+        }
+    }, {
+        "type": "store",
+        "properties": {
+            "area": "3",
+            "country": "日本国 | JAPAN",
+            "state": "",
+            "city": "株式会社 ノーブルスタイリンク - Noble Styling Inc.",
+            "zipcode": "",
+            "name": "Noble Styling",
+            "address": "東京都渋谷区千駄ヶ谷3-59-4 クエストコート原宿 401 | #401, Quest Court Harajuku, 3-59-4, Sendagaya, Shibuya-ku, Toky",
+            "phone": "03-5775-1866 - +81 3 5775 1866",
+            "fax": "",
+            "website": "http://www.noblestyling.com",
+            "email": "yy@noblestyling.com",
+            "enabled": "0"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [139.704443, 35.67398]
+        }
+    }, {
+        "type": "store",
+        "properties": {
+            "area": "3",
+            "country": "Singapore",
+            "state": "",
+            "city": "Singapore",
+            "zipcode": "238843",
+            "name": "WATCHES OF SWITZERLAND PTE LTD",
+            "address": "176 Orchard Road #01-1/2/3, Centrepoint",
+            "phone": "+65 6734 0928",
+            "fax": "",
+            "website": "",
+            "email": "enquiry@delacour.com.sg",
+            "enabled": "1"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [103.839852, 1.302040]
+        }
+    }, {
+        "type": "store",
+        "properties": {
+            "area": "3",
+            "country": "Singapore",
+            "state": "",
+            "city": "Singapore",
+            "zipcode": "238872",
+            "name": "SINCERE FINE WATCHES",
+            "address": "391 Orchard Road #01-12 Takashimaya S.C.",
+            "phone": "+65 6733 0618",
+            "fax": "",
+            "website": "",
+            "email": "enquiry@delacour.com.sg",
+            "enabled": "1"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [103.835338, 1.30283]
+        }
+    },{
+        "type": "boutique",
+        "properties": {
+            "area": "3",
+            "country": "Singapore",
+            "state": "",
+            "city": "Singapore",
+            "zipcode": "238877",
+            "name": "deLaCour Singapore Boutique",
+            "address": "Wisma Atria - 435 Orchard Road #02-11",
+            "phone": "",
+            "fax": "",
+            "website": "",
+            "email": "",
+            "enabled": "1"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [103.833165, 1.303906]
+        }
+    },
+    {
+        "type": "store",
+        "properties": {
+            "area": "3",
+            "country": "Malaysia",
+            "state": "",
+            "city": "Genting Highlands",
+            "zipcode": "69000",
+            "name": "Genting Rewards Gallery",
+            "address": "Resorts World Genting, Level 2, Maxim Hotel",
+            "phone": "",
+            "fax": "",
+            "website": "",
+            "email": "genting.rewards.gallery@rwgenting.com",
+            "enabled": "1"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [101.795080, 3.424412]
+        }
+    },
+     {
+        "type": "store",
+        "properties": {
+            "area": "1",
+            "country": "Angola",
+            "state": "",
+            "city": "Luanda",
+            "zipcode": "",
+            "name": "Mostratus.com SGPS LDA",
+            "address": "Rua da Missão",
+            "phone": "00244 947 413 930",
+            "fax": "",
+            "website": "",
+            "email": "cicerocruz@mostratus.co.ao",
+            "enabled": "0"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [13.23513, -8.814935]
+        }
+    }, {
+        "type": "corner",
+        "properties": {
+            "area": "3",
+            "country": "日本国 | JAPAN",
+            "state": "",
+            "city": "Tokyo",
+            "zipcode": "",
+            "name": "Noble Styling Gallery",
+            "address": "The Westin Tokyo - Ebisu Garden Place |  1-4-1 Mita, Meguro-ku",
+            "phone": "+81 3 6277 1604",
+            "fax": "",
+            "website": "http://www.noblestyling.com/",
+            "email": "info@noblestyling.com",
+            "enabled": "1"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [139.713757, 35.640383]
+        }
+    }, 
+    {
+        "type": "store",
+        "properties": {
+            "area": "3",
+            "country": "日本国 | JAPAN",
+            "state": "",
+            "city": "広島 | Hiroshima",
+            "zipcode": "",
+            "name": "Noble Styling",
+            "address": "中区立町5-7 Gハウス 1F | 1F, G House, 5-7, Tatemachi, Naka-ku",
+            "phone": "082-246-4560 - +81 82 246 4560",
+            "fax": "",
+            "website": "http://www.noblestyling.com/",
+            "email": "info@noblestyling.com",
+            "enabled": "0"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [132.461638, 34.394120]
+        }
+    },{
+        "type": "store",
+        "properties": {
+            "area": "3",
+            "country": "Singapore",
+            "state": "",
+            "city": "Singapore",
+            "zipcode": "238859",
+            "name": "WATCHES OF SWITZERLAND PTE LTD",
+            "address": "290 Orchard Road\nThe Paragon #01-19/20",
+            "phone": "+65 67329793",
+            "fax": "",
+            "website": "",
+            "email": "enquiry@delacour.com.sg",
+            "enabled": "1"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [103.835789, 1.303699]
+        }
+    }, {
+        "type": "store",
+        "properties": {
+            "area": "3",
+            "country": "中國 | CHINA",
+            "state": "",
+            "city": "香港 | Hong Kong",
+            "zipcode": "",
+            "name": "昆騰概念有限公司 - Quantum Concepts Limited",
+            "address": "九龍灣宏開道 8 號其士商業中心 15 樓 1503 室 | Chevalier Commercial Centre, 8 Wang Hoi Road - Kowloon Bay - Unit 1503, 15/F",
+            "phone": "(852) 2798 7828",
+            "fax": "",
+            "website": "",
+            "email": "info@quantum-concepts.hk",
+            "enabled": "1"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [114.211312, 22.321376]
+        }
+    },
+    {
+        "type": "store",
+        "properties": {
+            "area": "3",
+            "country": "中國 | CHINA",
+            "state": "",
+            "city": "香港 | Hong Kong",
+            "zipcode": "",
+            "name": "Haiphong Road Branch",
+            "address": "G/F, Nos. 49-50 & 51-52 Haiphong Road",
+            "phone": "(852) 2367 8871",
+            "fax": "(852) 2316 2163",
+            "website": "",
+            "email": "",
+            "enabled": "1"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [114.171333, 22.298145]
+        }
+     }, 
+     {
+        "type": "store",
+        "properties": {
+            "area": "3",
+            "country": "Singapore",
+            "state": "",
+            "city": "Singapore",
+            "zipcode": "098585",
+            "name": "SINCERE FINE WATCHES",
+            "address": "I Harbourfront Walk #01-25 Vivo City",
+            "phone": "+65 6278 1698",
+            "fax": "",
+            "website": "",
+            "email": "enquiry@delacour.com.sg",
+            "enabled": "1"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [103.821895, 1.265149]
+        }
+    }, {
+        "type": "corner",
+        "properties": {
+            "area": "3",
+            "country": "Монгол улс | Mongolia",
+            "state": "",
+            "city": "Улаанбаатар | Ulaanbaatar",
+            "zipcode": "",
+            "name": "Делакор үзэсгэлэнгийн танхим | deLaCour Boutique",
+            "address": "Тэнгэр Вилла #118 Их Монгол Улсын гудамж - 11-р хороо  Khan-Uul District – Хан – Уул дүүрэг | Tenger Villa #118 Ikh Mongol Uls Street - 11th subdistrict Khan-Uul district",
+            "phone": "976-770-004-999",
+            "fax": "",
+            "website": "www.delacourmongolia.com",
+            "email": "info@enemog.com",
+            "enabled": "1"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [106.916357, 47.929111]
+        }
+    }]
+}

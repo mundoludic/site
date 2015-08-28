@@ -1,0 +1,181 @@
+/******** CUSTOMIZED WATH & PROMESS REEF SAVER ***************/
+
+// Comportamiento de piedras
+
+img{
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+.customize-watch{
+  text-align: left;
+  margin: 15px 0 0 0;
+  padding: 0;
+}
+
+.componente{
+  position: absolute;
+  left: 50;
+  right: 50;
+  z-index: 10;
+}
+
+.palette{
+  background-color: #050505;
+  padding: 0;
+  margin-top: 40px;
+  text-align: center;
+
+  li{
+    background-repeat: no-repeat;
+    z-index: 12;
+    display: inline-block;
+  }
+  .material-btn {
+    width: 55px;
+    height: 55px;
+  }
+  .piedra-btn{
+    width: 50px;
+    height: 44px;
+    // @include border-radius(none, 5px, $black);
+    // @include box-shadow(2px, 3px, 6px, #333);
+  }
+}
+
+// BOTONES STONES
+
+#green-btn {
+  // background-color: #7d8158;
+  background-image: url(../images/collections/stones/green-btn.png);
+  @include rotate(50deg);
+}
+#light-green-btn {
+  // background-color: #7d8158;
+  background-image: url(../images/collections/stones/light-green-btn.png);
+  @include rotate(55deg);
+}
+#yellow-btn {
+  // background-color: #ceb158;
+  background-image: url(../images/collections/stones/yellow-btn.png);
+  @include rotate(35deg);
+}
+#brown-btn {
+  // background-color: #ceb158;
+  background-image: url(../images/collections/stones/brown-btn.png);
+  @include rotate(30deg);
+}
+#blue-btn {
+  // background-color: #568cb0;
+  background-image: url(../images/collections/stones/blue-btn.png);
+  @include rotate(15deg);
+}
+#light-blue-btn {
+  // background-color: #568cb0;
+  background-image: url(../images/collections/stones/light-blue-btn.png);
+  @include rotate(10deg);
+}
+#purple-btn {
+  // background-color: #e7e7e7;
+  background-image: url(../images/collections/stones/purple-btn.png);
+  @include rotate(45deg);
+}
+#violet-btn {
+  // background-color: #e7e7e7;
+  background-image: url(../images/collections/stones/violet-btn.png);
+  @include rotate(40deg);
+}
+#red-btn {
+  // background-color: #e7e7e7;
+  background-image: url(../images/collections/stones/red-btn.png);
+  @include rotate(30deg);
+}
+#pink-btn {
+  // background-color: #c07eb2;
+  background-image: url(../images/collections/stones/pink-btn.png);
+  @include rotate(50deg);
+}
+#black-btn {
+  // background-color: #7d8158;
+  background-image: url(../images/collections/stones/black-btn.png);
+  @include rotate(55deg);
+}
+#white-btn {
+  // background-color: #e7e7e7;
+  background-image: url(../images/collections/stones/white-btn.png);
+  @include rotate(60deg);
+}
+
+// BOTONES MATERIALS
+
+#pg-btn {
+  background-image: url(../images/collections/materials/pg-btn.png);
+}
+#pvd-btn {
+  background-image: url(../images/collections/materials/pvd-btn.png);
+}
+#steel-btn {
+  background-image: url(../images/collections/materials/steel-btn.png);
+}
+
+
+/****************  PROMESS REEF SAVER  ****************/
+
+#reef-saver-deep{
+    margin: 20px 0px 30px 0px;
+    width: 900px;
+    height: 532px;
+    background-image: url('../images/collections/promess/reef-saver/deep-background.jpg');
+}
+
+#reef-saver-deep-image{
+  display: none;
+}
+
+#reef-saver{
+    margin: 0;
+    position: absolute;
+    margin-top: -535px;
+    opacity: 1;
+}
+
+#metric-rule{
+    margin: 0;
+    position: absolute;
+    margin-top: -535px;
+    opacity: 1;         
+}
+
+#diver{
+    margin: 0;
+    position: absolute;
+
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+}
+
+#diver-content {
+   width:50px;
+   height: 496px;
+   position: absolute;
+   margin-top: -500px;
+   margin-left: 265px;
+   /*background-color: #ccc;*/ 
+}
+
+#deep-counter{
+  margin-bottom: 20px;
+}
+
+// MediaQueries
+
+@media (max-width: 768px) {
+  #reef-saver-deep {
+    display: none;
+  }
+  #reef-saver-deep-devices{
+    display: block;
+  }
+}

@@ -1,0 +1,12 @@
+[
+	{"name":"All", "value":"all"},
+	{"name":"International", "value":"international"},
+	{"name":"Bulgary", "value":"bulgary"},
+	{"name":"China", "value":"china"},
+	{"name":"Switzerland", "value":"switzerland"},
+	{"name":"France", "value":"france"},
+	{"name":"Japan", "value":"japan"},
+	{"name":"Spain", "value":"spain"},
+	{"name":"United Kingdom", "value":"uk"},
+	{"name":"Thailand", "value":"thailand"}
+]

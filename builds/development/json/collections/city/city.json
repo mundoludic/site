@@ -1,0 +1,53 @@
+[
+	{
+		"title":"City Episode",
+		"image":"cityEpisodeBlackDial.jpg",
+		"active":"1"
+	},
+	{
+		"title":"City Episode W",
+		"image":"CityEpisodeW-Pink.jpg",
+		"active":"1"
+	},
+	{
+		"title":"City Cadet I",
+		"image":"cityCadet1Detail.jpg",
+		"active":"1"
+	},
+	{
+		"title":"City Cadet I",
+		"image":"cityCadet1Combo.jpg",
+		"active":"1"
+	},
+	{
+		"title":"City Cadet II",
+		"image":"cityCadetII.jpg",
+		"active":"1"
+	},
+	{
+		"title":"City Attitude",
+		"image":"cityAttitude.jpg",
+		"active":"0"
+	},
+	{
+		"title":"City Caractère",
+		"image":"cityCaractere.jpg",
+		"active":"0"
+	},
+	{
+		"title":"City Episode Gold",
+		"image":"cityEgoChronoPG.jpg",
+		"active":"0"
+	},
+	{
+		"title":"City Attitude",
+		"image":"cityEpisode.jpg",
+		"active":"0"
+	},
+	{
+		"title":"City Attitude Gold",
+		"image":"cityEpisodeGold.jpg",
+		"active":"0"
+	}
+
+]
