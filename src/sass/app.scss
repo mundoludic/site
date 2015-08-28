@@ -2,14 +2,14 @@
 // foundation.zurb.com
 // Licensed under MIT Open Source
 
-@import "node_modules/foundation/scss/normalize";
+@import "node_modules/foundation-sites/scss/normalize";
 @import "settings";
 
 // Make sure the charset is set appropriately
 @charset "UTF-8";
 
 // Behold, here are all the Foundation components.
-  @import "node_modules/foundation/scss/foundation";
+  @import "node_modules/foundation-sites/scss/foundation";
 
   // app styles
   @import "font-styles";
