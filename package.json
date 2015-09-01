@@ -6,6 +6,7 @@
     "angular-route": "^1.2.28",
     "angular-sanitize": "^1.2.28",
     "foundation": "^4.3.0",
+    "foundation-sites": "^5.5.2",
     "gulp": "^3.9.0",
     "gulp-browserify": "^0.5.1",
     "gulp-concat": "^2.6.0",
